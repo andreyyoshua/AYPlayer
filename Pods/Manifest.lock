@@ -1,7 +1,5 @@
 PODS:
-  - AYPlayer (0.1.0):
-    - AYPlayer/Source (= 0.1.0)
-  - AYPlayer/Source (0.1.0)
+  - AYPlayer (0.1.0)
 
 DEPENDENCIES:
   - AYPlayer (from `.`)
@@ -11,7 +9,7 @@ EXTERNAL SOURCES:
     :path: "."
 
 SPEC CHECKSUMS:
-  AYPlayer: 35a9b53932b168ad6e0b8527df861e0b73aea574
+  AYPlayer: fc6545cf8571c9b915ec23e3305862901fc58f8a
 
 PODFILE CHECKSUM: 030459aee18318dbb0a74b91f1fef614b544d59a
 

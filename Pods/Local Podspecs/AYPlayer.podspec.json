@@ -17,14 +17,8 @@
   "source": {
     "git": "https://github.com/andreyyoshua/AYPlayer"
   },
-  "default_subspecs": "Source",
+  "source_files": "AYPlayer/**/*",
   "frameworks": "AVFoundation",
   "swift_versions": "5.0",
-  "subspecs": [
-    {
-      "name": "Source",
-      "source_files": "AYPlayer/Sources/**/*"
-    }
-  ],
   "swift_version": "5.0"
 }

@@ -15,11 +15,7 @@ Pod::Spec.new do |s|
   s.homepage = "https://github.com/andreyyoshua/AYPlayer"
   
   s.source = { :git => "https://github.com/andreyyoshua/AYPlayer" }
-  s.default_subspec  = 'Source'
-
-  s.subspec 'Source' do |source|
-    source.source_files = 'AYPlayer/**/*'
-  end
+  s.source_files = 'AYPlayer/**/*'
   
   s.framework = "AVFoundation"
   # s.dependency 'Alamofire', '~> 4.7'
