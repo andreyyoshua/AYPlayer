@@ -28,7 +28,7 @@ Pod::Spec.new do |s|
   # s.dependency 'MBProgressHUD', '~> 1.1.0'
   
   # 8
-  s.source_files = "AVPlayer/**/*.{swift}"
+  s.source_files = "Sources/**/*.{swift}"
   
   # 9
   # s.resources = "RWPickFlavor/**/*.{png,jpeg,jpg,storyboard,xib,xcassets}"
