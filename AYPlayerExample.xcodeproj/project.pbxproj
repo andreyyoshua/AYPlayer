@@ -1,0 +1,794 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		E5C3664724109D5500F9DF76 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5C3664624109D5500F9DF76 /* AppDelegate.swift */; };
+		E5C3664924109D5500F9DF76 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5C3664824109D5500F9DF76 /* SceneDelegate.swift */; };
+		E5C3664B24109D5500F9DF76 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5C3664A24109D5500F9DF76 /* ContentView.swift */; };
+		E5C3664D24109D5700F9DF76 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E5C3664C24109D5700F9DF76 /* Assets.xcassets */; };
+		E5C3665024109D5700F9DF76 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E5C3664F24109D5700F9DF76 /* Preview Assets.xcassets */; };
+		E5C3665324109D5700F9DF76 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E5C3665124109D5700F9DF76 /* LaunchScreen.storyboard */; };
+		E5C3666824109D7700F9DF76 /* AYPlayer.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E5C3665F24109D7700F9DF76 /* AYPlayer.framework */; };
+		E5C3666F24109D7800F9DF76 /* AYPlayerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5C3666E24109D7800F9DF76 /* AYPlayerTests.swift */; };
+		E5C3667124109D7800F9DF76 /* AYPlayer.h in Headers */ = {isa = PBXBuildFile; fileRef = E5C3666124109D7700F9DF76 /* AYPlayer.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E5C3667424109D7800F9DF76 /* AYPlayer.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E5C3665F24109D7700F9DF76 /* AYPlayer.framework */; };
+		E5C3667524109D7800F9DF76 /* AYPlayer.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = E5C3665F24109D7700F9DF76 /* AYPlayer.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		E5C3669D24109D8C00F9DF76 /* AYPlayerURLSessionDataTaskFactory.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5C3667D24109D8B00F9DF76 /* AYPlayerURLSessionDataTaskFactory.swift */; };
+		E5C3669E24109D8C00F9DF76 /* AYPlayerError.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5C3667E24109D8B00F9DF76 /* AYPlayerError.swift */; };
+		E5C3669F24109D8C00F9DF76 /* AYPlayerState.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5C3667F24109D8C00F9DF76 /* AYPlayerState.swift */; };
+		E5C366A024109D8C00F9DF76 /* AYPlayerBufferObservingService.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5C3668124109D8C00F9DF76 /* AYPlayerBufferObservingService.swift */; };
+		E5C366A124109D8C00F9DF76 /* AYPlayerReachabilityService.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5C3668224109D8C00F9DF76 /* AYPlayerReachabilityService.swift */; };
+		E5C366A224109D8C00F9DF76 /* AYRouteAudioService.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5C3668324109D8C00F9DF76 /* AYRouteAudioService.swift */; };
+		E5C366A324109D8C00F9DF76 /* AYPlayerSeekService.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5C3668424109D8C00F9DF76 /* AYPlayerSeekService.swift */; };
+		E5C366A424109D8C00F9DF76 /* AYPlayerStatusObservingService.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5C3668524109D8C00F9DF76 /* AYPlayerStatusObservingService.swift */; };
+		E5C366A524109D8C00F9DF76 /* AYPlayerTimeControlStatus.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5C3668624109D8C00F9DF76 /* AYPlayerTimeControlStatus.swift */; };
+		E5C366A624109D8C00F9DF76 /* AYPlaybackObservingService.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5C3668724109D8C00F9DF76 /* AYPlaybackObservingService.swift */; };
+		E5C366A724109D8C00F9DF76 /* AYInterruptionAudioService.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5C3668824109D8C00F9DF76 /* AYInterruptionAudioService.swift */; };
+		E5C366A824109D8C00F9DF76 /* AYRateObservingService.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5C3668924109D8C00F9DF76 /* AYRateObservingService.swift */; };
+		E5C366A924109D8C00F9DF76 /* AYTimerFactory.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5C3668A24109D8C00F9DF76 /* AYTimerFactory.swift */; };
+		E5C366AA24109D8C00F9DF76 /* AYPlayerMedia.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5C3668B24109D8C00F9DF76 /* AYPlayerMedia.swift */; };
+		E5C366AB24109D8C00F9DF76 /* AYPlayerAction.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5C3668C24109D8C00F9DF76 /* AYPlayerAction.swift */; };
+		E5C366AC24109D8C00F9DF76 /* AYPlayerUnavailableActionReason.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5C3668D24109D8C00F9DF76 /* AYPlayerUnavailableActionReason.swift */; };
+		E5C366AD24109D8C00F9DF76 /* AYPlayerManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5C3668E24109D8C00F9DF76 /* AYPlayerManager.swift */; };
+		E5C366AE24109D8C00F9DF76 /* AYPlayerPerformanceMeasurementsService.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5C3668F24109D8C00F9DF76 /* AYPlayerPerformanceMeasurementsService.swift */; };
+		E5C366AF24109D8C00F9DF76 /* AYPlayerLoggerDomain.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5C3669024109D8C00F9DF76 /* AYPlayerLoggerDomain.swift */; };
+		E5C366B024109D8C00F9DF76 /* AYPlayerConfiguration.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5C3669124109D8C00F9DF76 /* AYPlayerConfiguration.swift */; };
+		E5C366B124109D8C00F9DF76 /* PausedState.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5C3669324109D8C00F9DF76 /* PausedState.swift */; };
+		E5C366B224109D8C00F9DF76 /* LoadingState.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5C3669424109D8C00F9DF76 /* LoadingState.swift */; };
+		E5C366B324109D8C00F9DF76 /* WaitingForNetworkState.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5C3669524109D8C00F9DF76 /* WaitingForNetworkState.swift */; };
+		E5C366B424109D8C00F9DF76 /* BufferingState.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5C3669624109D8C00F9DF76 /* BufferingState.swift */; };
+		E5C366B524109D8D00F9DF76 /* InitializationState.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5C3669724109D8C00F9DF76 /* InitializationState.swift */; };
+		E5C366B624109D8D00F9DF76 /* StoppedState.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5C3669824109D8C00F9DF76 /* StoppedState.swift */; };
+		E5C366B724109D8D00F9DF76 /* FailedState.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5C3669924109D8C00F9DF76 /* FailedState.swift */; };
+		E5C366B824109D8D00F9DF76 /* PlayingState.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5C3669A24109D8C00F9DF76 /* PlayingState.swift */; };
+		E5C366B924109D8D00F9DF76 /* AYPlayerLogger.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5C3669B24109D8C00F9DF76 /* AYPlayerLogger.swift */; };
+		E5C366BA24109D8D00F9DF76 /* AYPlayerManagerState.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5C3669C24109D8C00F9DF76 /* AYPlayerManagerState.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		E5C3666924109D7700F9DF76 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E5C3663B24109D5500F9DF76 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E5C3665E24109D7700F9DF76;
+			remoteInfo = AYPlayer;
+		};
+		E5C3666B24109D7800F9DF76 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E5C3663B24109D5500F9DF76 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E5C3664224109D5500F9DF76;
+			remoteInfo = AYPlayerExample;
+		};
+		E5C3667224109D7800F9DF76 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E5C3663B24109D5500F9DF76 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E5C3665E24109D7700F9DF76;
+			remoteInfo = AYPlayer;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		E5C3667924109D7800F9DF76 /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				E5C3667524109D7800F9DF76 /* AYPlayer.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		E5C3664324109D5500F9DF76 /* AYPlayerExample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AYPlayerExample.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		E5C3664624109D5500F9DF76 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		E5C3664824109D5500F9DF76 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		E5C3664A24109D5500F9DF76 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		E5C3664C24109D5700F9DF76 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		E5C3664F24109D5700F9DF76 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		E5C3665224109D5700F9DF76 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		E5C3665424109D5700F9DF76 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E5C3665F24109D7700F9DF76 /* AYPlayer.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = AYPlayer.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		E5C3666124109D7700F9DF76 /* AYPlayer.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AYPlayer.h; sourceTree = "<group>"; };
+		E5C3666224109D7700F9DF76 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E5C3666724109D7700F9DF76 /* AYPlayerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AYPlayerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		E5C3666E24109D7800F9DF76 /* AYPlayerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AYPlayerTests.swift; sourceTree = "<group>"; };
+		E5C3667024109D7800F9DF76 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E5C3667D24109D8B00F9DF76 /* AYPlayerURLSessionDataTaskFactory.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AYPlayerURLSessionDataTaskFactory.swift; sourceTree = "<group>"; };
+		E5C3667E24109D8B00F9DF76 /* AYPlayerError.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AYPlayerError.swift; sourceTree = "<group>"; };
+		E5C3667F24109D8C00F9DF76 /* AYPlayerState.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AYPlayerState.swift; sourceTree = "<group>"; };
+		E5C3668124109D8C00F9DF76 /* AYPlayerBufferObservingService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AYPlayerBufferObservingService.swift; sourceTree = "<group>"; };
+		E5C3668224109D8C00F9DF76 /* AYPlayerReachabilityService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AYPlayerReachabilityService.swift; sourceTree = "<group>"; };
+		E5C3668324109D8C00F9DF76 /* AYRouteAudioService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AYRouteAudioService.swift; sourceTree = "<group>"; };
+		E5C3668424109D8C00F9DF76 /* AYPlayerSeekService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AYPlayerSeekService.swift; sourceTree = "<group>"; };
+		E5C3668524109D8C00F9DF76 /* AYPlayerStatusObservingService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AYPlayerStatusObservingService.swift; sourceTree = "<group>"; };
+		E5C3668624109D8C00F9DF76 /* AYPlayerTimeControlStatus.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AYPlayerTimeControlStatus.swift; sourceTree = "<group>"; };
+		E5C3668724109D8C00F9DF76 /* AYPlaybackObservingService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AYPlaybackObservingService.swift; sourceTree = "<group>"; };
+		E5C3668824109D8C00F9DF76 /* AYInterruptionAudioService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AYInterruptionAudioService.swift; sourceTree = "<group>"; };
+		E5C3668924109D8C00F9DF76 /* AYRateObservingService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AYRateObservingService.swift; sourceTree = "<group>"; };
+		E5C3668A24109D8C00F9DF76 /* AYTimerFactory.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AYTimerFactory.swift; sourceTree = "<group>"; };
+		E5C3668B24109D8C00F9DF76 /* AYPlayerMedia.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AYPlayerMedia.swift; sourceTree = "<group>"; };
+		E5C3668C24109D8C00F9DF76 /* AYPlayerAction.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AYPlayerAction.swift; sourceTree = "<group>"; };
+		E5C3668D24109D8C00F9DF76 /* AYPlayerUnavailableActionReason.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AYPlayerUnavailableActionReason.swift; sourceTree = "<group>"; };
+		E5C3668E24109D8C00F9DF76 /* AYPlayerManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AYPlayerManager.swift; sourceTree = "<group>"; };
+		E5C3668F24109D8C00F9DF76 /* AYPlayerPerformanceMeasurementsService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AYPlayerPerformanceMeasurementsService.swift; sourceTree = "<group>"; };
+		E5C3669024109D8C00F9DF76 /* AYPlayerLoggerDomain.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AYPlayerLoggerDomain.swift; sourceTree = "<group>"; };
+		E5C3669124109D8C00F9DF76 /* AYPlayerConfiguration.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AYPlayerConfiguration.swift; sourceTree = "<group>"; };
+		E5C3669324109D8C00F9DF76 /* PausedState.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PausedState.swift; sourceTree = "<group>"; };
+		E5C3669424109D8C00F9DF76 /* LoadingState.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoadingState.swift; sourceTree = "<group>"; };
+		E5C3669524109D8C00F9DF76 /* WaitingForNetworkState.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WaitingForNetworkState.swift; sourceTree = "<group>"; };
+		E5C3669624109D8C00F9DF76 /* BufferingState.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BufferingState.swift; sourceTree = "<group>"; };
+		E5C3669724109D8C00F9DF76 /* InitializationState.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = InitializationState.swift; sourceTree = "<group>"; };
+		E5C3669824109D8C00F9DF76 /* StoppedState.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StoppedState.swift; sourceTree = "<group>"; };
+		E5C3669924109D8C00F9DF76 /* FailedState.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FailedState.swift; sourceTree = "<group>"; };
+		E5C3669A24109D8C00F9DF76 /* PlayingState.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PlayingState.swift; sourceTree = "<group>"; };
+		E5C3669B24109D8C00F9DF76 /* AYPlayerLogger.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AYPlayerLogger.swift; sourceTree = "<group>"; };
+		E5C3669C24109D8C00F9DF76 /* AYPlayerManagerState.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AYPlayerManagerState.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		E5C3664024109D5500F9DF76 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E5C3667424109D7800F9DF76 /* AYPlayer.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E5C3665C24109D7700F9DF76 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E5C3666424109D7700F9DF76 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E5C3666824109D7700F9DF76 /* AYPlayer.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		E5C3663A24109D5400F9DF76 = {
+			isa = PBXGroup;
+			children = (
+				E5C3664524109D5500F9DF76 /* AYPlayerExample */,
+				E5C3666024109D7700F9DF76 /* AYPlayer */,
+				E5C3666D24109D7800F9DF76 /* AYPlayerTests */,
+				E5C3664424109D5500F9DF76 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		E5C3664424109D5500F9DF76 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E5C3664324109D5500F9DF76 /* AYPlayerExample.app */,
+				E5C3665F24109D7700F9DF76 /* AYPlayer.framework */,
+				E5C3666724109D7700F9DF76 /* AYPlayerTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		E5C3664524109D5500F9DF76 /* AYPlayerExample */ = {
+			isa = PBXGroup;
+			children = (
+				E5C3664624109D5500F9DF76 /* AppDelegate.swift */,
+				E5C3664824109D5500F9DF76 /* SceneDelegate.swift */,
+				E5C3664A24109D5500F9DF76 /* ContentView.swift */,
+				E5C3664C24109D5700F9DF76 /* Assets.xcassets */,
+				E5C3665124109D5700F9DF76 /* LaunchScreen.storyboard */,
+				E5C3665424109D5700F9DF76 /* Info.plist */,
+				E5C3664E24109D5700F9DF76 /* Preview Content */,
+			);
+			path = AYPlayerExample;
+			sourceTree = "<group>";
+		};
+		E5C3664E24109D5700F9DF76 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				E5C3664F24109D5700F9DF76 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		E5C3666024109D7700F9DF76 /* AYPlayer */ = {
+			isa = PBXGroup;
+			children = (
+				E5C3668024109D8C00F9DF76 /* Service */,
+				E5C3669224109D8C00F9DF76 /* State */,
+				E5C3668C24109D8C00F9DF76 /* AYPlayerAction.swift */,
+				E5C3669124109D8C00F9DF76 /* AYPlayerConfiguration.swift */,
+				E5C3667E24109D8B00F9DF76 /* AYPlayerError.swift */,
+				E5C3669B24109D8C00F9DF76 /* AYPlayerLogger.swift */,
+				E5C3669024109D8C00F9DF76 /* AYPlayerLoggerDomain.swift */,
+				E5C3668E24109D8C00F9DF76 /* AYPlayerManager.swift */,
+				E5C3669C24109D8C00F9DF76 /* AYPlayerManagerState.swift */,
+				E5C3668B24109D8C00F9DF76 /* AYPlayerMedia.swift */,
+				E5C3667F24109D8C00F9DF76 /* AYPlayerState.swift */,
+				E5C3668D24109D8C00F9DF76 /* AYPlayerUnavailableActionReason.swift */,
+				E5C3667D24109D8B00F9DF76 /* AYPlayerURLSessionDataTaskFactory.swift */,
+				E5C3666124109D7700F9DF76 /* AYPlayer.h */,
+				E5C3666224109D7700F9DF76 /* Info.plist */,
+			);
+			path = AYPlayer;
+			sourceTree = "<group>";
+		};
+		E5C3666D24109D7800F9DF76 /* AYPlayerTests */ = {
+			isa = PBXGroup;
+			children = (
+				E5C3666E24109D7800F9DF76 /* AYPlayerTests.swift */,
+				E5C3667024109D7800F9DF76 /* Info.plist */,
+			);
+			path = AYPlayerTests;
+			sourceTree = "<group>";
+		};
+		E5C3668024109D8C00F9DF76 /* Service */ = {
+			isa = PBXGroup;
+			children = (
+				E5C3668124109D8C00F9DF76 /* AYPlayerBufferObservingService.swift */,
+				E5C3668224109D8C00F9DF76 /* AYPlayerReachabilityService.swift */,
+				E5C3668324109D8C00F9DF76 /* AYRouteAudioService.swift */,
+				E5C3668424109D8C00F9DF76 /* AYPlayerSeekService.swift */,
+				E5C3668524109D8C00F9DF76 /* AYPlayerStatusObservingService.swift */,
+				E5C3668624109D8C00F9DF76 /* AYPlayerTimeControlStatus.swift */,
+				E5C3668724109D8C00F9DF76 /* AYPlaybackObservingService.swift */,
+				E5C3668824109D8C00F9DF76 /* AYInterruptionAudioService.swift */,
+				E5C3668924109D8C00F9DF76 /* AYRateObservingService.swift */,
+				E5C3668F24109D8C00F9DF76 /* AYPlayerPerformanceMeasurementsService.swift */,
+				E5C3668A24109D8C00F9DF76 /* AYTimerFactory.swift */,
+			);
+			path = Service;
+			sourceTree = "<group>";
+		};
+		E5C3669224109D8C00F9DF76 /* State */ = {
+			isa = PBXGroup;
+			children = (
+				E5C3669324109D8C00F9DF76 /* PausedState.swift */,
+				E5C3669424109D8C00F9DF76 /* LoadingState.swift */,
+				E5C3669524109D8C00F9DF76 /* WaitingForNetworkState.swift */,
+				E5C3669624109D8C00F9DF76 /* BufferingState.swift */,
+				E5C3669724109D8C00F9DF76 /* InitializationState.swift */,
+				E5C3669824109D8C00F9DF76 /* StoppedState.swift */,
+				E5C3669924109D8C00F9DF76 /* FailedState.swift */,
+				E5C3669A24109D8C00F9DF76 /* PlayingState.swift */,
+			);
+			path = State;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		E5C3665A24109D7700F9DF76 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E5C3667124109D7800F9DF76 /* AYPlayer.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		E5C3664224109D5500F9DF76 /* AYPlayerExample */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E5C3665724109D5700F9DF76 /* Build configuration list for PBXNativeTarget "AYPlayerExample" */;
+			buildPhases = (
+				E5C3663F24109D5500F9DF76 /* Sources */,
+				E5C3664024109D5500F9DF76 /* Frameworks */,
+				E5C3664124109D5500F9DF76 /* Resources */,
+				E5C3667924109D7800F9DF76 /* Embed Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E5C3667324109D7800F9DF76 /* PBXTargetDependency */,
+			);
+			name = AYPlayerExample;
+			productName = AYPlayerExample;
+			productReference = E5C3664324109D5500F9DF76 /* AYPlayerExample.app */;
+			productType = "com.apple.product-type.application";
+		};
+		E5C3665E24109D7700F9DF76 /* AYPlayer */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E5C3667624109D7800F9DF76 /* Build configuration list for PBXNativeTarget "AYPlayer" */;
+			buildPhases = (
+				E5C3665A24109D7700F9DF76 /* Headers */,
+				E5C3665B24109D7700F9DF76 /* Sources */,
+				E5C3665C24109D7700F9DF76 /* Frameworks */,
+				E5C3665D24109D7700F9DF76 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = AYPlayer;
+			productName = AYPlayer;
+			productReference = E5C3665F24109D7700F9DF76 /* AYPlayer.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		E5C3666624109D7700F9DF76 /* AYPlayerTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E5C3667A24109D7800F9DF76 /* Build configuration list for PBXNativeTarget "AYPlayerTests" */;
+			buildPhases = (
+				E5C3666324109D7700F9DF76 /* Sources */,
+				E5C3666424109D7700F9DF76 /* Frameworks */,
+				E5C3666524109D7700F9DF76 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E5C3666A24109D7700F9DF76 /* PBXTargetDependency */,
+				E5C3666C24109D7800F9DF76 /* PBXTargetDependency */,
+			);
+			name = AYPlayerTests;
+			productName = AYPlayerTests;
+			productReference = E5C3666724109D7700F9DF76 /* AYPlayerTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		E5C3663B24109D5500F9DF76 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1130;
+				LastUpgradeCheck = 1130;
+				ORGANIZATIONNAME = Brid;
+				TargetAttributes = {
+					E5C3664224109D5500F9DF76 = {
+						CreatedOnToolsVersion = 11.3.1;
+					};
+					E5C3665E24109D7700F9DF76 = {
+						CreatedOnToolsVersion = 11.3.1;
+						LastSwiftMigration = 1130;
+					};
+					E5C3666624109D7700F9DF76 = {
+						CreatedOnToolsVersion = 11.3.1;
+						TestTargetID = E5C3664224109D5500F9DF76;
+					};
+				};
+			};
+			buildConfigurationList = E5C3663E24109D5500F9DF76 /* Build configuration list for PBXProject "AYPlayerExample" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = E5C3663A24109D5400F9DF76;
+			productRefGroup = E5C3664424109D5500F9DF76 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				E5C3664224109D5500F9DF76 /* AYPlayerExample */,
+				E5C3665E24109D7700F9DF76 /* AYPlayer */,
+				E5C3666624109D7700F9DF76 /* AYPlayerTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		E5C3664124109D5500F9DF76 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E5C3665324109D5700F9DF76 /* LaunchScreen.storyboard in Resources */,
+				E5C3665024109D5700F9DF76 /* Preview Assets.xcassets in Resources */,
+				E5C3664D24109D5700F9DF76 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E5C3665D24109D7700F9DF76 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E5C3666524109D7700F9DF76 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		E5C3663F24109D5500F9DF76 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E5C3664724109D5500F9DF76 /* AppDelegate.swift in Sources */,
+				E5C3664924109D5500F9DF76 /* SceneDelegate.swift in Sources */,
+				E5C3664B24109D5500F9DF76 /* ContentView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E5C3665B24109D7700F9DF76 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E5C366B424109D8C00F9DF76 /* BufferingState.swift in Sources */,
+				E5C366A524109D8C00F9DF76 /* AYPlayerTimeControlStatus.swift in Sources */,
+				E5C3669F24109D8C00F9DF76 /* AYPlayerState.swift in Sources */,
+				E5C366A224109D8C00F9DF76 /* AYRouteAudioService.swift in Sources */,
+				E5C366A624109D8C00F9DF76 /* AYPlaybackObservingService.swift in Sources */,
+				E5C366B624109D8D00F9DF76 /* StoppedState.swift in Sources */,
+				E5C366B924109D8D00F9DF76 /* AYPlayerLogger.swift in Sources */,
+				E5C366B024109D8C00F9DF76 /* AYPlayerConfiguration.swift in Sources */,
+				E5C366AA24109D8C00F9DF76 /* AYPlayerMedia.swift in Sources */,
+				E5C366B324109D8C00F9DF76 /* WaitingForNetworkState.swift in Sources */,
+				E5C366B124109D8C00F9DF76 /* PausedState.swift in Sources */,
+				E5C366BA24109D8D00F9DF76 /* AYPlayerManagerState.swift in Sources */,
+				E5C366AB24109D8C00F9DF76 /* AYPlayerAction.swift in Sources */,
+				E5C366A824109D8C00F9DF76 /* AYRateObservingService.swift in Sources */,
+				E5C3669E24109D8C00F9DF76 /* AYPlayerError.swift in Sources */,
+				E5C366B224109D8C00F9DF76 /* LoadingState.swift in Sources */,
+				E5C366B824109D8D00F9DF76 /* PlayingState.swift in Sources */,
+				E5C366A924109D8C00F9DF76 /* AYTimerFactory.swift in Sources */,
+				E5C366AE24109D8C00F9DF76 /* AYPlayerPerformanceMeasurementsService.swift in Sources */,
+				E5C366A324109D8C00F9DF76 /* AYPlayerSeekService.swift in Sources */,
+				E5C366A124109D8C00F9DF76 /* AYPlayerReachabilityService.swift in Sources */,
+				E5C366A724109D8C00F9DF76 /* AYInterruptionAudioService.swift in Sources */,
+				E5C366B724109D8D00F9DF76 /* FailedState.swift in Sources */,
+				E5C366AC24109D8C00F9DF76 /* AYPlayerUnavailableActionReason.swift in Sources */,
+				E5C366AD24109D8C00F9DF76 /* AYPlayerManager.swift in Sources */,
+				E5C366A424109D8C00F9DF76 /* AYPlayerStatusObservingService.swift in Sources */,
+				E5C3669D24109D8C00F9DF76 /* AYPlayerURLSessionDataTaskFactory.swift in Sources */,
+				E5C366AF24109D8C00F9DF76 /* AYPlayerLoggerDomain.swift in Sources */,
+				E5C366B524109D8D00F9DF76 /* InitializationState.swift in Sources */,
+				E5C366A024109D8C00F9DF76 /* AYPlayerBufferObservingService.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E5C3666324109D7700F9DF76 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E5C3666F24109D7800F9DF76 /* AYPlayerTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		E5C3666A24109D7700F9DF76 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E5C3665E24109D7700F9DF76 /* AYPlayer */;
+			targetProxy = E5C3666924109D7700F9DF76 /* PBXContainerItemProxy */;
+		};
+		E5C3666C24109D7800F9DF76 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E5C3664224109D5500F9DF76 /* AYPlayerExample */;
+			targetProxy = E5C3666B24109D7800F9DF76 /* PBXContainerItemProxy */;
+		};
+		E5C3667324109D7800F9DF76 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E5C3665E24109D7700F9DF76 /* AYPlayer */;
+			targetProxy = E5C3667224109D7800F9DF76 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		E5C3665124109D5700F9DF76 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E5C3665224109D5700F9DF76 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		E5C3665524109D5700F9DF76 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		E5C3665624109D5700F9DF76 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		E5C3665824109D5700F9DF76 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"AYPlayerExample/Preview Content\"";
+				DEVELOPMENT_TEAM = 4B3AM3T7KB;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = AYPlayerExample/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.brid.AYPlayerExample;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		E5C3665924109D5700F9DF76 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"AYPlayerExample/Preview Content\"";
+				DEVELOPMENT_TEAM = 4B3AM3T7KB;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = AYPlayerExample/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.brid.AYPlayerExample;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		E5C3667724109D7800F9DF76 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = P2965WX6JV;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = AYPlayer/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.brid.AYPlayer;
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		E5C3667824109D7800F9DF76 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = P2965WX6JV;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = AYPlayer/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.brid.AYPlayer;
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		E5C3667B24109D7800F9DF76 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = P2965WX6JV;
+				INFOPLIST_FILE = AYPlayerTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.brid.AYPlayerTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/AYPlayerExample.app/AYPlayerExample";
+			};
+			name = Debug;
+		};
+		E5C3667C24109D7800F9DF76 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = P2965WX6JV;
+				INFOPLIST_FILE = AYPlayerTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.brid.AYPlayerTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/AYPlayerExample.app/AYPlayerExample";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		E5C3663E24109D5500F9DF76 /* Build configuration list for PBXProject "AYPlayerExample" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E5C3665524109D5700F9DF76 /* Debug */,
+				E5C3665624109D5700F9DF76 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E5C3665724109D5700F9DF76 /* Build configuration list for PBXNativeTarget "AYPlayerExample" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E5C3665824109D5700F9DF76 /* Debug */,
+				E5C3665924109D5700F9DF76 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E5C3667624109D7800F9DF76 /* Build configuration list for PBXNativeTarget "AYPlayer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E5C3667724109D7800F9DF76 /* Debug */,
+				E5C3667824109D7800F9DF76 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E5C3667A24109D7800F9DF76 /* Build configuration list for PBXNativeTarget "AYPlayerTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E5C3667B24109D7800F9DF76 /* Debug */,
+				E5C3667C24109D7800F9DF76 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = E5C3663B24109D5500F9DF76 /* Project object */;
+}
