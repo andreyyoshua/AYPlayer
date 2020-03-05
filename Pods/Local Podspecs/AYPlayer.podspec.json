@@ -1,0 +1,30 @@
+{
+  "name": "AYPlayer",
+  "platforms": {
+    "ios": "10.0"
+  },
+  "summary": "AYPlayer make you create a player.",
+  "requires_arc": true,
+  "version": "0.1.0",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "Andrey Yoshua": "andrey.yoshua@gmail.com"
+  },
+  "homepage": "https://github.com/andreyyoshua/AYPlayer",
+  "source": {
+    "git": "https://github.com/andreyyoshua/AYPlayer"
+  },
+  "default_subspecs": "Source",
+  "frameworks": "AVFoundation",
+  "swift_versions": "5.0",
+  "subspecs": [
+    {
+      "name": "Source",
+      "source_files": "AYPlayer/Sources/**/*"
+    }
+  ],
+  "swift_version": "5.0"
+}

@@ -7,77 +7,24 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0A2B8F28706F7BD6540961A4 /* Pods_AYPlayerExample.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AFA610F10E0AE86B2630B09F /* Pods_AYPlayerExample.framework */; };
 		48BA714D2410DA6A00054C1F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48BA714C2410DA6A00054C1F /* AppDelegate.swift */; };
 		48BA714F2410DA6A00054C1F /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48BA714E2410DA6A00054C1F /* SceneDelegate.swift */; };
 		48BA71512410DA6A00054C1F /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48BA71502410DA6A00054C1F /* ContentView.swift */; };
 		48BA71532410DA6C00054C1F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 48BA71522410DA6C00054C1F /* Assets.xcassets */; };
 		48BA71562410DA6C00054C1F /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 48BA71552410DA6C00054C1F /* Preview Assets.xcassets */; };
 		48BA71592410DA6C00054C1F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 48BA71572410DA6C00054C1F /* LaunchScreen.storyboard */; };
-		48BA717C2410DABE00054C1F /* AYPlayer.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 48BA71732410DABE00054C1F /* AYPlayer.framework */; };
 		48BA71832410DABE00054C1F /* AYPlayerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48BA71822410DABE00054C1F /* AYPlayerTests.swift */; };
-		48BA71852410DABE00054C1F /* AYPlayer.h in Headers */ = {isa = PBXBuildFile; fileRef = 48BA71752410DABE00054C1F /* AYPlayer.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		48BA71882410DABE00054C1F /* AYPlayer.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 48BA71732410DABE00054C1F /* AYPlayer.framework */; };
-		48BA71892410DABE00054C1F /* AYPlayer.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 48BA71732410DABE00054C1F /* AYPlayer.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
-		48BA71B22410DAEC00054C1F /* AYRouteAudioService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48BA71932410DAEB00054C1F /* AYRouteAudioService.swift */; };
-		48BA71B32410DAEC00054C1F /* AYInterruptionAudioService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48BA71942410DAEB00054C1F /* AYInterruptionAudioService.swift */; };
-		48BA71B42410DAEC00054C1F /* AYPlaybackObservingService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48BA71952410DAEB00054C1F /* AYPlaybackObservingService.swift */; };
-		48BA71B52410DAEC00054C1F /* AYPlayerSeekService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48BA71962410DAEB00054C1F /* AYPlayerSeekService.swift */; };
-		48BA71B62410DAEC00054C1F /* AYPlayerBufferObservingService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48BA71972410DAEB00054C1F /* AYPlayerBufferObservingService.swift */; };
-		48BA71B72410DAEC00054C1F /* AYTimerFactory.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48BA71982410DAEB00054C1F /* AYTimerFactory.swift */; };
-		48BA71B82410DAEC00054C1F /* AYPlayerPerformanceMeasurementsService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48BA71992410DAEB00054C1F /* AYPlayerPerformanceMeasurementsService.swift */; };
-		48BA71B92410DAEC00054C1F /* AYPlayerStatusObservingService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48BA719A2410DAEB00054C1F /* AYPlayerStatusObservingService.swift */; };
-		48BA71BA2410DAEC00054C1F /* AYRateObservingService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48BA719B2410DAEB00054C1F /* AYRateObservingService.swift */; };
-		48BA71BB2410DAEC00054C1F /* AYPlayerTimeControlStatus.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48BA719C2410DAEB00054C1F /* AYPlayerTimeControlStatus.swift */; };
-		48BA71BC2410DAEC00054C1F /* AYPlayerReachabilityService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48BA719D2410DAEB00054C1F /* AYPlayerReachabilityService.swift */; };
-		48BA71BD2410DAEC00054C1F /* PausedState.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48BA719F2410DAEB00054C1F /* PausedState.swift */; };
-		48BA71BE2410DAEC00054C1F /* LoadingState.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48BA71A02410DAEB00054C1F /* LoadingState.swift */; };
-		48BA71BF2410DAEC00054C1F /* WaitingForNetworkState.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48BA71A12410DAEB00054C1F /* WaitingForNetworkState.swift */; };
-		48BA71C02410DAEC00054C1F /* BufferingState.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48BA71A22410DAEB00054C1F /* BufferingState.swift */; };
-		48BA71C12410DAEC00054C1F /* InitializationState.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48BA71A32410DAEB00054C1F /* InitializationState.swift */; };
-		48BA71C22410DAEC00054C1F /* StoppedState.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48BA71A42410DAEB00054C1F /* StoppedState.swift */; };
-		48BA71C32410DAEC00054C1F /* FailedState.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48BA71A52410DAEB00054C1F /* FailedState.swift */; };
-		48BA71C42410DAEC00054C1F /* PlayingState.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48BA71A62410DAEB00054C1F /* PlayingState.swift */; };
-		48BA71DB2410DB3800054C1F /* AYPlayerError.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48BA71D02410DB3800054C1F /* AYPlayerError.swift */; };
-		48BA71DC2410DB3800054C1F /* AYPlayerState.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48BA71D12410DB3800054C1F /* AYPlayerState.swift */; };
-		48BA71DD2410DB3800054C1F /* AYPlayerMedia.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48BA71D22410DB3800054C1F /* AYPlayerMedia.swift */; };
-		48BA71DE2410DB3800054C1F /* AYPlayerLogger.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48BA71D32410DB3800054C1F /* AYPlayerLogger.swift */; };
-		48BA71DF2410DB3800054C1F /* AYPlayerURLSessionDataTaskFactory.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48BA71D42410DB3800054C1F /* AYPlayerURLSessionDataTaskFactory.swift */; };
-		48BA71E02410DB3800054C1F /* AYPlayerLoggerDomain.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48BA71D52410DB3800054C1F /* AYPlayerLoggerDomain.swift */; };
-		48BA71E12410DB3800054C1F /* AYPlayerAction.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48BA71D62410DB3800054C1F /* AYPlayerAction.swift */; };
-		48BA71E22410DB3800054C1F /* AYPlayerManagerState.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48BA71D72410DB3800054C1F /* AYPlayerManagerState.swift */; };
-		48BA71E32410DB3800054C1F /* AYPlayerUnavailableActionReason.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48BA71D82410DB3800054C1F /* AYPlayerUnavailableActionReason.swift */; };
-		48BA71E42410DB3800054C1F /* AYPlayerConfiguration.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48BA71D92410DB3800054C1F /* AYPlayerConfiguration.swift */; };
-		48BA71E52410DB3800054C1F /* AYPlayerManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48BA71DA2410DB3800054C1F /* AYPlayerManager.swift */; };
+		6E77C7A08C09436DD8407891 /* Pods_AYPlayerExample_AYPlayerTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9C4AFC5C3E87136CCFD0A44A /* Pods_AYPlayerExample_AYPlayerTests.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		48BA71602410DA6C00054C1F /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 48BA71412410DA6A00054C1F /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 48BA71482410DA6A00054C1F;
-			remoteInfo = AYPlayerExample;
-		};
-		48BA717D2410DABE00054C1F /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 48BA71412410DA6A00054C1F /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 48BA71722410DABE00054C1F;
-			remoteInfo = AYPlayer;
-		};
 		48BA717F2410DABE00054C1F /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = 48BA71412410DA6A00054C1F /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = 48BA71482410DA6A00054C1F;
 			remoteInfo = AYPlayerExample;
-		};
-		48BA71862410DABE00054C1F /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 48BA71412410DA6A00054C1F /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 48BA71722410DABE00054C1F;
-			remoteInfo = AYPlayer;
 		};
 /* End PBXContainerItemProxy section */
 
@@ -88,7 +35,6 @@
 			dstPath = "";
 			dstSubfolderSpec = 10;
 			files = (
-				48BA71892410DABE00054C1F /* AYPlayer.framework in Embed Frameworks */,
 			);
 			name = "Embed Frameworks";
 			runOnlyForDeploymentPostprocessing = 0;
@@ -96,6 +42,7 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		44B2BB346B01613231C80239 /* Pods-AYPlayerExample.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AYPlayerExample.release.xcconfig"; path = "Target Support Files/Pods-AYPlayerExample/Pods-AYPlayerExample.release.xcconfig"; sourceTree = "<group>"; };
 		48BA71492410DA6A00054C1F /* AYPlayerExample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AYPlayerExample.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		48BA714C2410DA6A00054C1F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		48BA714E2410DA6A00054C1F /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -104,43 +51,14 @@
 		48BA71552410DA6C00054C1F /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		48BA71582410DA6C00054C1F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		48BA715A2410DA6C00054C1F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		48BA715F2410DA6C00054C1F /* AYPlayerExampleTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AYPlayerExampleTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		48BA71732410DABE00054C1F /* AYPlayer.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = AYPlayer.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		48BA71752410DABE00054C1F /* AYPlayer.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AYPlayer.h; sourceTree = "<group>"; };
-		48BA71762410DABE00054C1F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		48BA717B2410DABE00054C1F /* AYPlayerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AYPlayerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		48BA71822410DABE00054C1F /* AYPlayerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AYPlayerTests.swift; sourceTree = "<group>"; };
 		48BA71842410DABE00054C1F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		48BA71932410DAEB00054C1F /* AYRouteAudioService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AYRouteAudioService.swift; sourceTree = "<group>"; };
-		48BA71942410DAEB00054C1F /* AYInterruptionAudioService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AYInterruptionAudioService.swift; sourceTree = "<group>"; };
-		48BA71952410DAEB00054C1F /* AYPlaybackObservingService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AYPlaybackObservingService.swift; sourceTree = "<group>"; };
-		48BA71962410DAEB00054C1F /* AYPlayerSeekService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AYPlayerSeekService.swift; sourceTree = "<group>"; };
-		48BA71972410DAEB00054C1F /* AYPlayerBufferObservingService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AYPlayerBufferObservingService.swift; sourceTree = "<group>"; };
-		48BA71982410DAEB00054C1F /* AYTimerFactory.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AYTimerFactory.swift; sourceTree = "<group>"; };
-		48BA71992410DAEB00054C1F /* AYPlayerPerformanceMeasurementsService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AYPlayerPerformanceMeasurementsService.swift; sourceTree = "<group>"; };
-		48BA719A2410DAEB00054C1F /* AYPlayerStatusObservingService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AYPlayerStatusObservingService.swift; sourceTree = "<group>"; };
-		48BA719B2410DAEB00054C1F /* AYRateObservingService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AYRateObservingService.swift; sourceTree = "<group>"; };
-		48BA719C2410DAEB00054C1F /* AYPlayerTimeControlStatus.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AYPlayerTimeControlStatus.swift; sourceTree = "<group>"; };
-		48BA719D2410DAEB00054C1F /* AYPlayerReachabilityService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AYPlayerReachabilityService.swift; sourceTree = "<group>"; };
-		48BA719F2410DAEB00054C1F /* PausedState.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PausedState.swift; sourceTree = "<group>"; };
-		48BA71A02410DAEB00054C1F /* LoadingState.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoadingState.swift; sourceTree = "<group>"; };
-		48BA71A12410DAEB00054C1F /* WaitingForNetworkState.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WaitingForNetworkState.swift; sourceTree = "<group>"; };
-		48BA71A22410DAEB00054C1F /* BufferingState.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BufferingState.swift; sourceTree = "<group>"; };
-		48BA71A32410DAEB00054C1F /* InitializationState.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = InitializationState.swift; sourceTree = "<group>"; };
-		48BA71A42410DAEB00054C1F /* StoppedState.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StoppedState.swift; sourceTree = "<group>"; };
-		48BA71A52410DAEB00054C1F /* FailedState.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FailedState.swift; sourceTree = "<group>"; };
-		48BA71A62410DAEB00054C1F /* PlayingState.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PlayingState.swift; sourceTree = "<group>"; };
-		48BA71D02410DB3800054C1F /* AYPlayerError.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AYPlayerError.swift; sourceTree = "<group>"; };
-		48BA71D12410DB3800054C1F /* AYPlayerState.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AYPlayerState.swift; sourceTree = "<group>"; };
-		48BA71D22410DB3800054C1F /* AYPlayerMedia.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AYPlayerMedia.swift; sourceTree = "<group>"; };
-		48BA71D32410DB3800054C1F /* AYPlayerLogger.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AYPlayerLogger.swift; sourceTree = "<group>"; };
-		48BA71D42410DB3800054C1F /* AYPlayerURLSessionDataTaskFactory.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AYPlayerURLSessionDataTaskFactory.swift; sourceTree = "<group>"; };
-		48BA71D52410DB3800054C1F /* AYPlayerLoggerDomain.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AYPlayerLoggerDomain.swift; sourceTree = "<group>"; };
-		48BA71D62410DB3800054C1F /* AYPlayerAction.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AYPlayerAction.swift; sourceTree = "<group>"; };
-		48BA71D72410DB3800054C1F /* AYPlayerManagerState.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AYPlayerManagerState.swift; sourceTree = "<group>"; };
-		48BA71D82410DB3800054C1F /* AYPlayerUnavailableActionReason.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AYPlayerUnavailableActionReason.swift; sourceTree = "<group>"; };
-		48BA71D92410DB3800054C1F /* AYPlayerConfiguration.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AYPlayerConfiguration.swift; sourceTree = "<group>"; };
-		48BA71DA2410DB3800054C1F /* AYPlayerManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AYPlayerManager.swift; sourceTree = "<group>"; };
+		5921A4454FD40B239BE07E85 /* Pods-AYPlayerExample-AYPlayerTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AYPlayerExample-AYPlayerTests.debug.xcconfig"; path = "Target Support Files/Pods-AYPlayerExample-AYPlayerTests/Pods-AYPlayerExample-AYPlayerTests.debug.xcconfig"; sourceTree = "<group>"; };
+		634DDB1EB0A6F6FB2C3FDC40 /* Pods-AYPlayerExample.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AYPlayerExample.debug.xcconfig"; path = "Target Support Files/Pods-AYPlayerExample/Pods-AYPlayerExample.debug.xcconfig"; sourceTree = "<group>"; };
+		9C4AFC5C3E87136CCFD0A44A /* Pods_AYPlayerExample_AYPlayerTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_AYPlayerExample_AYPlayerTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		AFA610F10E0AE86B2630B09F /* Pods_AYPlayerExample.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_AYPlayerExample.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		BCABD9A22A0D6E80C9969E22 /* Pods-AYPlayerExample-AYPlayerTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AYPlayerExample-AYPlayerTests.release.xcconfig"; path = "Target Support Files/Pods-AYPlayerExample-AYPlayerTests/Pods-AYPlayerExample-AYPlayerTests.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -148,21 +66,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				48BA71882410DABE00054C1F /* AYPlayer.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		48BA715C2410DA6C00054C1F /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		48BA71702410DABE00054C1F /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
+				0A2B8F28706F7BD6540961A4 /* Pods_AYPlayerExample.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -170,20 +74,30 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				48BA717C2410DABE00054C1F /* AYPlayer.framework in Frameworks */,
+				6E77C7A08C09436DD8407891 /* Pods_AYPlayerExample_AYPlayerTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		1240955A8B04D25FAEC082DA /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				AFA610F10E0AE86B2630B09F /* Pods_AYPlayerExample.framework */,
+				9C4AFC5C3E87136CCFD0A44A /* Pods_AYPlayerExample_AYPlayerTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		48BA71402410DA6A00054C1F = {
 			isa = PBXGroup;
 			children = (
 				48BA714B2410DA6A00054C1F /* AYPlayerExample */,
-				48BA71742410DABE00054C1F /* AYPlayer */,
 				48BA71812410DABE00054C1F /* AYPlayerTests */,
 				48BA714A2410DA6A00054C1F /* Products */,
+				53172FF7F27A071471711E70 /* Pods */,
+				1240955A8B04D25FAEC082DA /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -191,8 +105,6 @@
 			isa = PBXGroup;
 			children = (
 				48BA71492410DA6A00054C1F /* AYPlayerExample.app */,
-				48BA715F2410DA6C00054C1F /* AYPlayerExampleTests.xctest */,
-				48BA71732410DABE00054C1F /* AYPlayer.framework */,
 				48BA717B2410DABE00054C1F /* AYPlayerTests.xctest */,
 			);
 			name = Products;
@@ -220,16 +132,6 @@
 			path = "Preview Content";
 			sourceTree = "<group>";
 		};
-		48BA71742410DABE00054C1F /* AYPlayer */ = {
-			isa = PBXGroup;
-			children = (
-				48BA71CF2410DB0600054C1F /* Sources */,
-				48BA71752410DABE00054C1F /* AYPlayer.h */,
-				48BA71762410DABE00054C1F /* Info.plist */,
-			);
-			path = AYPlayer;
-			sourceTree = "<group>";
-		};
 		48BA71812410DABE00054C1F /* AYPlayerTests */ = {
 			isa = PBXGroup;
 			children = (
@@ -239,77 +141,25 @@
 			path = AYPlayerTests;
 			sourceTree = "<group>";
 		};
-		48BA71922410DAEB00054C1F /* Service */ = {
+		53172FF7F27A071471711E70 /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				48BA71932410DAEB00054C1F /* AYRouteAudioService.swift */,
-				48BA71942410DAEB00054C1F /* AYInterruptionAudioService.swift */,
-				48BA71952410DAEB00054C1F /* AYPlaybackObservingService.swift */,
-				48BA71962410DAEB00054C1F /* AYPlayerSeekService.swift */,
-				48BA71972410DAEB00054C1F /* AYPlayerBufferObservingService.swift */,
-				48BA71982410DAEB00054C1F /* AYTimerFactory.swift */,
-				48BA71992410DAEB00054C1F /* AYPlayerPerformanceMeasurementsService.swift */,
-				48BA719A2410DAEB00054C1F /* AYPlayerStatusObservingService.swift */,
-				48BA719B2410DAEB00054C1F /* AYRateObservingService.swift */,
-				48BA719C2410DAEB00054C1F /* AYPlayerTimeControlStatus.swift */,
-				48BA719D2410DAEB00054C1F /* AYPlayerReachabilityService.swift */,
+				634DDB1EB0A6F6FB2C3FDC40 /* Pods-AYPlayerExample.debug.xcconfig */,
+				44B2BB346B01613231C80239 /* Pods-AYPlayerExample.release.xcconfig */,
+				5921A4454FD40B239BE07E85 /* Pods-AYPlayerExample-AYPlayerTests.debug.xcconfig */,
+				BCABD9A22A0D6E80C9969E22 /* Pods-AYPlayerExample-AYPlayerTests.release.xcconfig */,
 			);
-			path = Service;
-			sourceTree = "<group>";
-		};
-		48BA719E2410DAEB00054C1F /* State */ = {
-			isa = PBXGroup;
-			children = (
-				48BA719F2410DAEB00054C1F /* PausedState.swift */,
-				48BA71A02410DAEB00054C1F /* LoadingState.swift */,
-				48BA71A12410DAEB00054C1F /* WaitingForNetworkState.swift */,
-				48BA71A22410DAEB00054C1F /* BufferingState.swift */,
-				48BA71A32410DAEB00054C1F /* InitializationState.swift */,
-				48BA71A42410DAEB00054C1F /* StoppedState.swift */,
-				48BA71A52410DAEB00054C1F /* FailedState.swift */,
-				48BA71A62410DAEB00054C1F /* PlayingState.swift */,
-			);
-			path = State;
-			sourceTree = "<group>";
-		};
-		48BA71CF2410DB0600054C1F /* Sources */ = {
-			isa = PBXGroup;
-			children = (
-				48BA71D62410DB3800054C1F /* AYPlayerAction.swift */,
-				48BA71D92410DB3800054C1F /* AYPlayerConfiguration.swift */,
-				48BA71D02410DB3800054C1F /* AYPlayerError.swift */,
-				48BA71D32410DB3800054C1F /* AYPlayerLogger.swift */,
-				48BA71D52410DB3800054C1F /* AYPlayerLoggerDomain.swift */,
-				48BA71DA2410DB3800054C1F /* AYPlayerManager.swift */,
-				48BA71D72410DB3800054C1F /* AYPlayerManagerState.swift */,
-				48BA71D22410DB3800054C1F /* AYPlayerMedia.swift */,
-				48BA71D12410DB3800054C1F /* AYPlayerState.swift */,
-				48BA71D82410DB3800054C1F /* AYPlayerUnavailableActionReason.swift */,
-				48BA71D42410DB3800054C1F /* AYPlayerURLSessionDataTaskFactory.swift */,
-				48BA71922410DAEB00054C1F /* Service */,
-				48BA719E2410DAEB00054C1F /* State */,
-			);
-			path = Sources;
+			path = Pods;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
-
-/* Begin PBXHeadersBuildPhase section */
-		48BA716E2410DABE00054C1F /* Headers */ = {
-			isa = PBXHeadersBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				48BA71852410DABE00054C1F /* AYPlayer.h in Headers */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-/* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
 		48BA71482410DA6A00054C1F /* AYPlayerExample */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = 48BA71682410DA6C00054C1F /* Build configuration list for PBXNativeTarget "AYPlayerExample" */;
 			buildPhases = (
+				53A71EA8B22B61E2F080C313 /* [CP] Check Pods Manifest.lock */,
 				48BA71452410DA6A00054C1F /* Sources */,
 				48BA71462410DA6A00054C1F /* Frameworks */,
 				48BA71472410DA6A00054C1F /* Resources */,
@@ -318,53 +168,17 @@
 			buildRules = (
 			);
 			dependencies = (
-				48BA71872410DABE00054C1F /* PBXTargetDependency */,
 			);
 			name = AYPlayerExample;
 			productName = AYPlayerExample;
 			productReference = 48BA71492410DA6A00054C1F /* AYPlayerExample.app */;
 			productType = "com.apple.product-type.application";
 		};
-		48BA715E2410DA6C00054C1F /* AYPlayerExampleTests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 48BA716B2410DA6C00054C1F /* Build configuration list for PBXNativeTarget "AYPlayerExampleTests" */;
-			buildPhases = (
-				48BA715B2410DA6C00054C1F /* Sources */,
-				48BA715C2410DA6C00054C1F /* Frameworks */,
-				48BA715D2410DA6C00054C1F /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				48BA71612410DA6C00054C1F /* PBXTargetDependency */,
-			);
-			name = AYPlayerExampleTests;
-			productName = AYPlayerExampleTests;
-			productReference = 48BA715F2410DA6C00054C1F /* AYPlayerExampleTests.xctest */;
-			productType = "com.apple.product-type.bundle.unit-test";
-		};
-		48BA71722410DABE00054C1F /* AYPlayer */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 48BA718F2410DABE00054C1F /* Build configuration list for PBXNativeTarget "AYPlayer" */;
-			buildPhases = (
-				48BA716E2410DABE00054C1F /* Headers */,
-				48BA716F2410DABE00054C1F /* Sources */,
-				48BA71702410DABE00054C1F /* Frameworks */,
-				48BA71712410DABE00054C1F /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-			);
-			name = AYPlayer;
-			productName = AYPlayer;
-			productReference = 48BA71732410DABE00054C1F /* AYPlayer.framework */;
-			productType = "com.apple.product-type.framework";
-		};
 		48BA717A2410DABE00054C1F /* AYPlayerTests */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = 48BA71902410DABE00054C1F /* Build configuration list for PBXNativeTarget "AYPlayerTests" */;
 			buildPhases = (
+				409C426F924DC5875F08DD77 /* [CP] Check Pods Manifest.lock */,
 				48BA71772410DABE00054C1F /* Sources */,
 				48BA71782410DABE00054C1F /* Frameworks */,
 				48BA71792410DABE00054C1F /* Resources */,
@@ -372,7 +186,6 @@
 			buildRules = (
 			);
 			dependencies = (
-				48BA717E2410DABE00054C1F /* PBXTargetDependency */,
 				48BA71802410DABE00054C1F /* PBXTargetDependency */,
 			);
 			name = AYPlayerTests;
@@ -392,14 +205,6 @@
 				TargetAttributes = {
 					48BA71482410DA6A00054C1F = {
 						CreatedOnToolsVersion = 11.3;
-					};
-					48BA715E2410DA6C00054C1F = {
-						CreatedOnToolsVersion = 11.3;
-						TestTargetID = 48BA71482410DA6A00054C1F;
-					};
-					48BA71722410DABE00054C1F = {
-						CreatedOnToolsVersion = 11.3;
-						LastSwiftMigration = 1130;
 					};
 					48BA717A2410DABE00054C1F = {
 						CreatedOnToolsVersion = 11.3;
@@ -421,8 +226,6 @@
 			projectRoot = "";
 			targets = (
 				48BA71482410DA6A00054C1F /* AYPlayerExample */,
-				48BA715E2410DA6C00054C1F /* AYPlayerExampleTests */,
-				48BA71722410DABE00054C1F /* AYPlayer */,
 				48BA717A2410DABE00054C1F /* AYPlayerTests */,
 			);
 		};
@@ -439,20 +242,6 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		48BA715D2410DA6C00054C1F /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		48BA71712410DABE00054C1F /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		48BA71792410DABE00054C1F /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -462,6 +251,53 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		409C426F924DC5875F08DD77 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-AYPlayerExample-AYPlayerTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		53A71EA8B22B61E2F080C313 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-AYPlayerExample-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		48BA71452410DA6A00054C1F /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
@@ -470,50 +306,6 @@
 				48BA714D2410DA6A00054C1F /* AppDelegate.swift in Sources */,
 				48BA714F2410DA6A00054C1F /* SceneDelegate.swift in Sources */,
 				48BA71512410DA6A00054C1F /* ContentView.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		48BA715B2410DA6C00054C1F /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		48BA716F2410DABE00054C1F /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				48BA71B62410DAEC00054C1F /* AYPlayerBufferObservingService.swift in Sources */,
-				48BA71B42410DAEC00054C1F /* AYPlaybackObservingService.swift in Sources */,
-				48BA71B82410DAEC00054C1F /* AYPlayerPerformanceMeasurementsService.swift in Sources */,
-				48BA71B32410DAEC00054C1F /* AYInterruptionAudioService.swift in Sources */,
-				48BA71B92410DAEC00054C1F /* AYPlayerStatusObservingService.swift in Sources */,
-				48BA71DF2410DB3800054C1F /* AYPlayerURLSessionDataTaskFactory.swift in Sources */,
-				48BA71BA2410DAEC00054C1F /* AYRateObservingService.swift in Sources */,
-				48BA71B52410DAEC00054C1F /* AYPlayerSeekService.swift in Sources */,
-				48BA71E02410DB3800054C1F /* AYPlayerLoggerDomain.swift in Sources */,
-				48BA71E22410DB3800054C1F /* AYPlayerManagerState.swift in Sources */,
-				48BA71DD2410DB3800054C1F /* AYPlayerMedia.swift in Sources */,
-				48BA71DC2410DB3800054C1F /* AYPlayerState.swift in Sources */,
-				48BA71C22410DAEC00054C1F /* StoppedState.swift in Sources */,
-				48BA71E12410DB3800054C1F /* AYPlayerAction.swift in Sources */,
-				48BA71BC2410DAEC00054C1F /* AYPlayerReachabilityService.swift in Sources */,
-				48BA71C12410DAEC00054C1F /* InitializationState.swift in Sources */,
-				48BA71C02410DAEC00054C1F /* BufferingState.swift in Sources */,
-				48BA71C32410DAEC00054C1F /* FailedState.swift in Sources */,
-				48BA71BE2410DAEC00054C1F /* LoadingState.swift in Sources */,
-				48BA71BF2410DAEC00054C1F /* WaitingForNetworkState.swift in Sources */,
-				48BA71BB2410DAEC00054C1F /* AYPlayerTimeControlStatus.swift in Sources */,
-				48BA71BD2410DAEC00054C1F /* PausedState.swift in Sources */,
-				48BA71B22410DAEC00054C1F /* AYRouteAudioService.swift in Sources */,
-				48BA71B72410DAEC00054C1F /* AYTimerFactory.swift in Sources */,
-				48BA71C42410DAEC00054C1F /* PlayingState.swift in Sources */,
-				48BA71E32410DB3800054C1F /* AYPlayerUnavailableActionReason.swift in Sources */,
-				48BA71DB2410DB3800054C1F /* AYPlayerError.swift in Sources */,
-				48BA71DE2410DB3800054C1F /* AYPlayerLogger.swift in Sources */,
-				48BA71E52410DB3800054C1F /* AYPlayerManager.swift in Sources */,
-				48BA71E42410DB3800054C1F /* AYPlayerConfiguration.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -528,25 +320,10 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		48BA71612410DA6C00054C1F /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = 48BA71482410DA6A00054C1F /* AYPlayerExample */;
-			targetProxy = 48BA71602410DA6C00054C1F /* PBXContainerItemProxy */;
-		};
-		48BA717E2410DABE00054C1F /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = 48BA71722410DABE00054C1F /* AYPlayer */;
-			targetProxy = 48BA717D2410DABE00054C1F /* PBXContainerItemProxy */;
-		};
 		48BA71802410DABE00054C1F /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			target = 48BA71482410DA6A00054C1F /* AYPlayerExample */;
 			targetProxy = 48BA717F2410DABE00054C1F /* PBXContainerItemProxy */;
-		};
-		48BA71872410DABE00054C1F /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = 48BA71722410DABE00054C1F /* AYPlayer */;
-			targetProxy = 48BA71862410DABE00054C1F /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -678,8 +455,8 @@
 		};
 		48BA71692410DA6C00054C1F /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 634DDB1EB0A6F6FB2C3FDC40 /* Pods-AYPlayerExample.debug.xcconfig */;
 			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_ASSET_PATHS = "\"AYPlayerExample/Preview Content\"";
@@ -699,8 +476,8 @@
 		};
 		48BA716A2410DA6C00054C1F /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 44B2BB346B01613231C80239 /* Pods-AYPlayerExample.release.xcconfig */;
 			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_ASSET_PATHS = "\"AYPlayerExample/Preview Content\"";
@@ -718,111 +495,10 @@
 			};
 			name = Release;
 		};
-		48BA716C2410DA6C00054C1F /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = 4B3AM3T7KB;
-				INFOPLIST_FILE = AYPlayerExampleTests/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.brid.AYPlayerExampleTests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/AYPlayerExample.app/AYPlayerExample";
-			};
-			name = Debug;
-		};
-		48BA716D2410DA6C00054C1F /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = 4B3AM3T7KB;
-				INFOPLIST_FILE = AYPlayerExampleTests/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.brid.AYPlayerExampleTests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/AYPlayerExample.app/AYPlayerExample";
-			};
-			name = Release;
-		};
-		48BA718B2410DABE00054C1F /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				CLANG_ENABLE_MODULES = YES;
-				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DEVELOPMENT_TEAM = 4B3AM3T7KB;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = AYPlayer/Info.plist;
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.brid.AYPlayer;
-				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
-				SKIP_INSTALL = YES;
-				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
-		48BA718C2410DABE00054C1F /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				CLANG_ENABLE_MODULES = YES;
-				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DEVELOPMENT_TEAM = 4B3AM3T7KB;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = AYPlayer/Info.plist;
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.brid.AYPlayer;
-				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
-				SKIP_INSTALL = YES;
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
 		48BA718D2410DABE00054C1F /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5921A4454FD40B239BE07E85 /* Pods-AYPlayerExample-AYPlayerTests.debug.xcconfig */;
 			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 4B3AM3T7KB;
 				INFOPLIST_FILE = AYPlayerTests/Info.plist;
@@ -841,8 +517,8 @@
 		};
 		48BA718E2410DABE00054C1F /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = BCABD9A22A0D6E80C9969E22 /* Pods-AYPlayerExample-AYPlayerTests.release.xcconfig */;
 			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 4B3AM3T7KB;
 				INFOPLIST_FILE = AYPlayerTests/Info.plist;
@@ -876,24 +552,6 @@
 			buildConfigurations = (
 				48BA71692410DA6C00054C1F /* Debug */,
 				48BA716A2410DA6C00054C1F /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		48BA716B2410DA6C00054C1F /* Build configuration list for PBXNativeTarget "AYPlayerExampleTests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				48BA716C2410DA6C00054C1F /* Debug */,
-				48BA716D2410DA6C00054C1F /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		48BA718F2410DABE00054C1F /* Build configuration list for PBXNativeTarget "AYPlayer" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				48BA718B2410DABE00054C1F /* Debug */,
-				48BA718C2410DABE00054C1F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

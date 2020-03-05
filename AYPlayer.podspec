@@ -18,7 +18,7 @@ Pod::Spec.new do |s|
   s.default_subspec  = 'Source'
 
   s.subspec 'Source' do |source|
-    core.source_files = 'AYPlayer/Sources/**/*'
+    source.source_files = 'AYPlayer/Sources/**/*'
   end
   
   s.framework = "AVFoundation"

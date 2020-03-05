@@ -1,0 +1,6 @@
+framework module AYPlayer {
+  umbrella header "AYPlayer-umbrella.h"
+
+  export *
+  module * { export * }
+}
