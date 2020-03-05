@@ -1,24 +1,26 @@
 {
   "name": "AYPlayer",
-  "platforms": {
-    "ios": "10.0"
-  },
-  "summary": "AYPlayer make you create a player.",
-  "requires_arc": true,
   "version": "0.1.0",
-  "license": {
-    "type": "MIT",
-    "file": "LICENSE"
-  },
+  "summary": "AYPlayer is an audio persistence AVPlayer wrapper",
+  "description": "AYPlayer is an ongoing project that aims to create a more usable audio video player with readable status and network persistence option.",
+  "homepage": "https://github.com/andreyyoshua/AYPlayer",
   "authors": {
     "Andrey Yoshua": "andrey.yoshua@gmail.com"
   },
-  "homepage": "https://github.com/andreyyoshua/AYPlayer",
   "source": {
-    "git": "https://github.com/andreyyoshua/AYPlayer"
+    "git": "https://github.com/andreyyoshua/AYPlayer.git",
+    "tag": "0.1.0"
   },
-  "source_files": "AYPlayer/**/*",
-  "frameworks": "AVFoundation",
+  "default_subspecs": "Core",
+  "platforms": {
+    "ios": "10.0"
+  },
   "swift_versions": "5.0",
+  "subspecs": [
+    {
+      "name": "Core",
+      "source_files": "AYPlayer/**/*"
+    }
+  ],
   "swift_version": "5.0"
 }

@@ -7,46 +7,45 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		0259067844DDA59417AD67530D517773 /* AYPlayerAction.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B10482C7E1A2DB91C82BFC59BB97D6F /* AYPlayerAction.swift */; };
-		045B736B2E9F9A7F03026F8864D1CC75 /* AYTimerFactory.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E60E3F82381ADB5B272A616513660B5 /* AYTimerFactory.swift */; };
+		0495C6C01D6465AE1155DAB4D9BABB6F /* AYPlayerPerformanceMeasurementsService.swift in Sources */ = {isa = PBXBuildFile; fileRef = E54ADE123696155EF3F308359B0DDED8 /* AYPlayerPerformanceMeasurementsService.swift */; };
 		0BCDB2439F1845C5A08C63CC45A49C98 /* Pods-AYPlayerExample-AYPlayerTests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 64EC0D4D2BAB0987A0AD373B61BB7639 /* Pods-AYPlayerExample-AYPlayerTests-dummy.m */; };
-		150DCFC4708453FCAF26CF4BA9C5835B /* FailedState.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4569B7C8DF329AD05139A549E08EE050 /* FailedState.swift */; };
-		19AE3DA9CD0CBFD2768E99E0CDB37301 /* AYInterruptionAudioService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 698B76A79B5A7C43414AE5650171607D /* AYInterruptionAudioService.swift */; };
-		19BB799C525F88B8EB1AFDDB6E91B193 /* WaitingForNetworkState.swift in Sources */ = {isa = PBXBuildFile; fileRef = 394BAA35A8A3302FF73391784EA6D6C8 /* WaitingForNetworkState.swift */; };
-		19E8D3E09C4E2549037E7B7146FFD2B4 /* AYPlayerStatusObservingService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B9D5AD7137DA9A71CDC93D6B82FEAFB /* AYPlayerStatusObservingService.swift */; };
-		1B0D5B36E50CF47640F117A7FD631D04 /* AYPlayerManagerState.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7539230544573E52882EE1FBBD51F3FD /* AYPlayerManagerState.swift */; };
-		28431F51E9A1219B34201F89431C4A32 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E07B0E7D8EDD7E883339D7E8FA65819E /* AVFoundation.framework */; };
-		383D2E8BDA8197BD14D05A0EF50B372A /* AYPlayerUnavailableActionReason.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBE3B8D7DC66D34E47DF2796C4BA4972 /* AYPlayerUnavailableActionReason.swift */; };
-		3B6A22431072F47BF55A9F644439536B /* AYPlayerPerformanceMeasurementsService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 655CF2FA6995FC2FCB9E8A87769CADE1 /* AYPlayerPerformanceMeasurementsService.swift */; };
-		3F2E1B846D0FAC749AC95CE9D7F5392F /* AYPlayerError.swift in Sources */ = {isa = PBXBuildFile; fileRef = A11F53B8C322C98D2D4DFDBA28177B82 /* AYPlayerError.swift */; };
+		10395E20D880155478D1FEDAFB8A4513 /* InitializationState.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4FDF22A28174F74A30744D0265C91BC /* InitializationState.swift */; };
+		15950EBA2E97E43F6DAB05137FD46CFC /* AYPlayerSeekService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85B3146846F22CF435B94E2354765C79 /* AYPlayerSeekService.swift */; };
+		2047BE2FBD09506CDA64060E5CE6D3C0 /* PausedState.swift in Sources */ = {isa = PBXBuildFile; fileRef = 497AD81BC0206054B4D9FD693A653C15 /* PausedState.swift */; };
+		2BAF4BE4E8166287DF90B00569C02DAA /* AYTimerFactory.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AC02AD70F359F142F6A7439329EC6C0 /* AYTimerFactory.swift */; };
+		2BF699F9B0AC41ECDB80796D97EA2DEC /* AYPlayerUnavailableActionReason.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98F8F97B0DE95446A06B778DB7713015 /* AYPlayerUnavailableActionReason.swift */; };
+		39FD6CF1D28BD59998F01E2D95027676 /* AYPlayerState.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7BACEC45035943CAA2BF4B1F11D9CB14 /* AYPlayerState.swift */; };
+		3AA4C030A893CE31C506541475738D3E /* AYPlaybackObservingService.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0A88423A4A4A380E018088439F5D432 /* AYPlaybackObservingService.swift */; };
+		3F104898E36A0F1AD3EA902506C319AB /* LoadingState.swift in Sources */ = {isa = PBXBuildFile; fileRef = C96CA8D20150726EE6B47808F095E2CD /* LoadingState.swift */; };
 		3F3CB76F9897D8940D7553672AD60DBF /* Pods-AYPlayerExample-AYPlayerTests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 8C29C13DE7F17E3CBE33B6E2712708E6 /* Pods-AYPlayerExample-AYPlayerTests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		5A60733F34252B8777BD3CDAE472E961 /* PausedState.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A33EE5D901B16F97E93D61AAC5CAA8F /* PausedState.swift */; };
-		5A74816BDAB74F5749A9BF01CEF9D794 /* AYPlayerMedia.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B4353AA6B60762C8F1DD710CD6AFC83 /* AYPlayerMedia.swift */; };
+		414ABB8E277A26DCF80D731CB4F19070 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
+		43D4696BD2FD785EE6C62310AEA2E012 /* AYPlayerTimeControlStatus.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9EE3AC25701C755A6397E0F154B0F282 /* AYPlayerTimeControlStatus.swift */; };
+		45A1BC9940E27E016AB350FD266ABE9E /* AYPlayerReachabilityService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17751A8B92A5466F8FE39BF0CC804F14 /* AYPlayerReachabilityService.swift */; };
+		50BA825F930520B4332B324A0B82F4AE /* AYPlayer-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 17B46E4AC76A975F40D2E55D0545A605 /* AYPlayer-dummy.m */; };
+		52993BE2D364EF1C9F4095E49FB2373E /* AYPlayerURLSessionDataTaskFactory.swift in Sources */ = {isa = PBXBuildFile; fileRef = 545A47AE226677D55DCAF1B4A98A1873 /* AYPlayerURLSessionDataTaskFactory.swift */; };
+		67480D9D391BE4600FED5A4D7AD4470D /* AYPlayer-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = A23F6BA1A86FD1E0C6722AFA2EF04408 /* AYPlayer-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		68FD4600EC56D7AA7CE33990682EBAEB /* AYPlayerLogger.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3AD04E66E2391F5752BD88F11E495CBC /* AYPlayerLogger.swift */; };
 		6C4AC8C7EAF5C68C6DF7A0B078F1080F /* Pods-AYPlayerExample-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = B0415D6E7F26CC1BA63149C8E029A2E5 /* Pods-AYPlayerExample-dummy.m */; };
-		6D9A2E2F7944289C8B491FC6906AB1D9 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E80C92FE6416D144F4F8E40525C40FCC /* Foundation.framework */; };
-		736F38A20CB790D970B1A8E27EDA77E4 /* AYRouteAudioService.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0CF8F33512584B79BB56CB3D95964AB /* AYRouteAudioService.swift */; };
-		7A014A0CA1D65739E9C7C0CC7300E2AA /* BufferingState.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8CABB9927B5DDFF617B2F5AB5376CB27 /* BufferingState.swift */; };
+		6FC83028A3CA7D7323977E02366897D1 /* AYPlayerManagerState.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16175D1906D615FD723ACEE2ED6C5B3A /* AYPlayerManagerState.swift */; };
 		7BC9897960728FC1CC5754D10C3D83A8 /* Pods-AYPlayerExample-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 54FAC5231D81D908ED3506779015E007 /* Pods-AYPlayerExample-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		802DAACAE49AA32CA5659408088E8B47 /* AYPlayerReachabilityService.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB647EA61EEB0330B842258B26D6E0FF /* AYPlayerReachabilityService.swift */; };
-		81910B0DDB8552A8DC235A87A91E1DAC /* AYPlayerTimeControlStatus.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3604C7990B3208EC01DF7A7429DCF767 /* AYPlayerTimeControlStatus.swift */; };
-		8595EF888EE3FBD3CE6DC35DA98EDF0E /* AYPlayerURLSessionDataTaskFactory.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2709049D2386EF542DF422F37E201289 /* AYPlayerURLSessionDataTaskFactory.swift */; };
-		890FEC4C1D7435B54287CE041C307B8A /* AYPlayer-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = DB78170FBD4D78A50B696B34BF4BC7C4 /* AYPlayer-dummy.m */; };
-		8C50E0573FF505AEAF3E90B375484142 /* LoadingState.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37730C860236187A2209BBED27C500BD /* LoadingState.swift */; };
-		918F28DAD86CF8A1FAE7BA589CE6B7F3 /* AYPlaybackObservingService.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5267189870270DAA22283945FB0787C /* AYPlaybackObservingService.swift */; };
-		9AE26EA1724018F5589569F399A340C5 /* AYPlayerLogger.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05CB565753A4EFF90718B0F9532C13A5 /* AYPlayerLogger.swift */; };
-		9D3A991C34ADEC20694236F082E73877 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E80C92FE6416D144F4F8E40525C40FCC /* Foundation.framework */; };
-		9D8F36A68F36FF1719AEDC869EF01DFE /* AYPlayerLoggerDomain.swift in Sources */ = {isa = PBXBuildFile; fileRef = A486EC15DF9D1058D5BDDBC07CFF26D2 /* AYPlayerLoggerDomain.swift */; };
-		A31FC71D274398AAF6097270E3025203 /* AYPlayerBufferObservingService.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD1B51699078CD78E96A15CAACF0B13F /* AYPlayerBufferObservingService.swift */; };
-		AD7EE4CAE406780D52A3B787C116636B /* AYPlayerState.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8624A5CA672666DD2CDB84708E4BAD8E /* AYPlayerState.swift */; };
-		AFF187CF60394C63006360D6DBC95130 /* AYPlayerManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9FF9BD8FDC7093887A7D995C8691CA9 /* AYPlayerManager.swift */; };
-		B5971D321D3E3EF393126AAA4B505D8C /* InitializationState.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F6A3621F429647F7741BA6E85F66B99 /* InitializationState.swift */; };
-		B922C8CC2B1EF2E3B1A3A2579778D691 /* StoppedState.swift in Sources */ = {isa = PBXBuildFile; fileRef = A02A27A55D5E4B4C9F859F960431124F /* StoppedState.swift */; };
-		D2345412371B09DF0306E83A7E9B636E /* AYRateObservingService.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF401091079F5993788FDF856320D114 /* AYRateObservingService.swift */; };
-		DCFB5BFD3DF0D4054D47E4DE4866C52C /* AYPlayer-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 78A1160207F76868369DA0B26E452D36 /* AYPlayer-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		DF86C4CDB17A2617A26E3DD0F394E96A /* AYPlayerSeekService.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE2D47BBE200B25DD87B4F782F04E7D9 /* AYPlayerSeekService.swift */; };
-		EBA75B7D0BCB5AA37FF1BD03349B44B5 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E80C92FE6416D144F4F8E40525C40FCC /* Foundation.framework */; };
-		F054961A21C93B387DF046D62373576D /* AYPlayerConfiguration.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3F75324AA02C033B43163B18FF1D394 /* AYPlayerConfiguration.swift */; };
-		F3F72702A929102A5E51F0B70E659420 /* PlayingState.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E19ACC01677BCFB41D74076934F9D27 /* PlayingState.swift */; };
+		95F68A11ABE50484C5C9673CECE1A927 /* AYPlayerLoggerDomain.swift in Sources */ = {isa = PBXBuildFile; fileRef = 061C6B037B3B53472465C6C442F254A1 /* AYPlayerLoggerDomain.swift */; };
+		99795EE0908EEC0218A1749C713111F7 /* AYInterruptionAudioService.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7465FA1A3E9C64A5520F43187AF5DA2 /* AYInterruptionAudioService.swift */; };
+		9D3A991C34ADEC20694236F082E73877 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
+		A3A5CB6AB71326FB2C4DB6333DCFB29A /* AYPlayerConfiguration.swift in Sources */ = {isa = PBXBuildFile; fileRef = 826E7B4BF44310A8AFCF313FEFE47F15 /* AYPlayerConfiguration.swift */; };
+		B6A850D5FBDB1678DC2D4A093487152E /* FailedState.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C7BAD02D98730E24C53FE625F34E8BF /* FailedState.swift */; };
+		B91DC45419877841C75E64A4EFDEF96B /* AYPlayerBufferObservingService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D99A4D61390576BE0D392ECB1EE2CD0 /* AYPlayerBufferObservingService.swift */; };
+		C7D2536915DC1063E60ADBCD506E2282 /* AYPlayerAction.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5FFF1886908536018A2041FAA91241EA /* AYPlayerAction.swift */; };
+		CD913372AADF3605B847E76955C37D57 /* AYRouteAudioService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 662096A02878CF9C1A8E359E19412CC4 /* AYRouteAudioService.swift */; };
+		CD9FDA3595D3B7BB1AD62E22C41F5973 /* WaitingForNetworkState.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04C4C0607E1767318E295AD20A127F4C /* WaitingForNetworkState.swift */; };
+		CDAC2CB3961090F8E8EB80A293595B47 /* BufferingState.swift in Sources */ = {isa = PBXBuildFile; fileRef = 770494DD8FB4EE09430D8A24986DD021 /* BufferingState.swift */; };
+		CED852EAFBFCF4BC9CD78E65AC951BAA /* PlayingState.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F2D1FC4B04D0946787A99E3254AFA5E /* PlayingState.swift */; };
+		D476736C95E1FFA12D8D6F7E22DD6660 /* AYPlayerMedia.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87E2525DABE6CD8C1FF44DA1DD23D593 /* AYPlayerMedia.swift */; };
+		DD708B336B90F1DCC6DDE30A7D10C6BE /* AYPlayerError.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1177E1D6205F42C7D31FF64E905E1338 /* AYPlayerError.swift */; };
+		E287D7F03CE06D128B9BAB08558034F5 /* AYPlayerStatusObservingService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DF6AD8956E729804494453E2B273E04 /* AYPlayerStatusObservingService.swift */; };
+		E4695906683D1AC6A489887BBB1A3480 /* AYRateObservingService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A1AFA9598B1FB072FF1E98FEE3B052E /* AYRateObservingService.swift */; };
+		EBA75B7D0BCB5AA37FF1BD03349B44B5 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
+		FA75A84D9924E61BDEB93FCE680763F4 /* AYPlayerManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = E486036FD5A8CF590E0D33A46D26D9ED /* AYPlayerManager.swift */; };
+		FF554980FC54DD8732DBB94D2CA283F0 /* StoppedState.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45F55FC5476D204430F39CC160753750 /* StoppedState.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -67,69 +66,68 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		05CB565753A4EFF90718B0F9532C13A5 /* AYPlayerLogger.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = AYPlayerLogger.swift; path = AYPlayer/Sources/AYPlayerLogger.swift; sourceTree = "<group>"; };
+		04C4C0607E1767318E295AD20A127F4C /* WaitingForNetworkState.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = WaitingForNetworkState.swift; sourceTree = "<group>"; };
 		05D01681B22EDA2F9E7B569F1F961131 /* Pods-AYPlayerExample-AYPlayerTests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-AYPlayerExample-AYPlayerTests-acknowledgements.plist"; sourceTree = "<group>"; };
+		061C6B037B3B53472465C6C442F254A1 /* AYPlayerLoggerDomain.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = AYPlayerLoggerDomain.swift; path = AYPlayer/AYPlayerLoggerDomain.swift; sourceTree = "<group>"; };
 		07A6AB97E1FE1BF271A5553B27393EA8 /* AYPlayer.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = AYPlayer.framework; path = AYPlayer.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		1B4353AA6B60762C8F1DD710CD6AFC83 /* AYPlayerMedia.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = AYPlayerMedia.swift; path = AYPlayer/Sources/AYPlayerMedia.swift; sourceTree = "<group>"; };
+		0A1AFA9598B1FB072FF1E98FEE3B052E /* AYRateObservingService.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = AYRateObservingService.swift; sourceTree = "<group>"; };
+		1177E1D6205F42C7D31FF64E905E1338 /* AYPlayerError.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = AYPlayerError.swift; path = AYPlayer/AYPlayerError.swift; sourceTree = "<group>"; };
+		16175D1906D615FD723ACEE2ED6C5B3A /* AYPlayerManagerState.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = AYPlayerManagerState.swift; path = AYPlayer/AYPlayerManagerState.swift; sourceTree = "<group>"; };
+		17751A8B92A5466F8FE39BF0CC804F14 /* AYPlayerReachabilityService.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = AYPlayerReachabilityService.swift; sourceTree = "<group>"; };
+		17B46E4AC76A975F40D2E55D0545A605 /* AYPlayer-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "AYPlayer-dummy.m"; sourceTree = "<group>"; };
+		1E13B7927EC597CE2F6A293D6BF599EE /* AYPlayer.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = AYPlayer.debug.xcconfig; sourceTree = "<group>"; };
+		1F2D1FC4B04D0946787A99E3254AFA5E /* PlayingState.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = PlayingState.swift; sourceTree = "<group>"; };
 		2270FBBB2AD44136EB767B894D6CAB80 /* Pods_AYPlayerExample_AYPlayerTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_AYPlayerExample_AYPlayerTests.framework; path = "Pods-AYPlayerExample-AYPlayerTests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
-		2709049D2386EF542DF422F37E201289 /* AYPlayerURLSessionDataTaskFactory.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = AYPlayerURLSessionDataTaskFactory.swift; path = AYPlayer/Sources/AYPlayerURLSessionDataTaskFactory.swift; sourceTree = "<group>"; };
-		348FE5E7677C3D392F370A653165FAE5 /* AYPlayer.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = AYPlayer.release.xcconfig; sourceTree = "<group>"; };
-		3604C7990B3208EC01DF7A7429DCF767 /* AYPlayerTimeControlStatus.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = AYPlayerTimeControlStatus.swift; sourceTree = "<group>"; };
-		36C55302AF1E07A7EC87B76BA9896829 /* AYPlayer.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = AYPlayer.debug.xcconfig; sourceTree = "<group>"; };
-		37730C860236187A2209BBED27C500BD /* LoadingState.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = LoadingState.swift; sourceTree = "<group>"; };
+		2AC02AD70F359F142F6A7439329EC6C0 /* AYTimerFactory.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = AYTimerFactory.swift; sourceTree = "<group>"; };
+		2EAFCD64C2FBECDC2615EEFC7C336384 /* AYPlayer.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = AYPlayer.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
 		384E7FABB369E2C4E0539686E43E4438 /* Pods-AYPlayerExample-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-AYPlayerExample-acknowledgements.plist"; sourceTree = "<group>"; };
-		394BAA35A8A3302FF73391784EA6D6C8 /* WaitingForNetworkState.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = WaitingForNetworkState.swift; sourceTree = "<group>"; };
 		39E9BE417BA1B0F21B3DB660D0333D0B /* Pods-AYPlayerExample-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-AYPlayerExample-Info.plist"; sourceTree = "<group>"; };
-		3B9D5AD7137DA9A71CDC93D6B82FEAFB /* AYPlayerStatusObservingService.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = AYPlayerStatusObservingService.swift; sourceTree = "<group>"; };
-		3CA4E84D3D6305203317E4914F50B419 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		3AD04E66E2391F5752BD88F11E495CBC /* AYPlayerLogger.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = AYPlayerLogger.swift; path = AYPlayer/AYPlayerLogger.swift; sourceTree = "<group>"; };
 		3D2BCA2F4E4003BB8C596BE1AE303C91 /* Pods-AYPlayerExample-AYPlayerTests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-AYPlayerExample-AYPlayerTests-frameworks.sh"; sourceTree = "<group>"; };
-		3F6A3621F429647F7741BA6E85F66B99 /* InitializationState.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = InitializationState.swift; sourceTree = "<group>"; };
-		4569B7C8DF329AD05139A549E08EE050 /* FailedState.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = FailedState.swift; sourceTree = "<group>"; };
 		45E3CE5427256F397572737146C89DDD /* Pods-AYPlayerExample-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-AYPlayerExample-frameworks.sh"; sourceTree = "<group>"; };
+		45F55FC5476D204430F39CC160753750 /* StoppedState.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = StoppedState.swift; sourceTree = "<group>"; };
 		47A6EA8C4B0A4CBA53DE8A5953F334CA /* Pods-AYPlayerExample-AYPlayerTests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-AYPlayerExample-AYPlayerTests-acknowledgements.markdown"; sourceTree = "<group>"; };
-		4E19ACC01677BCFB41D74076934F9D27 /* PlayingState.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = PlayingState.swift; sourceTree = "<group>"; };
+		497AD81BC0206054B4D9FD693A653C15 /* PausedState.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = PausedState.swift; sourceTree = "<group>"; };
+		4DF6AD8956E729804494453E2B273E04 /* AYPlayerStatusObservingService.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = AYPlayerStatusObservingService.swift; sourceTree = "<group>"; };
 		4F7778F888F55F96C2EBB8A63FFD310C /* Pods-AYPlayerExample-AYPlayerTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-AYPlayerExample-AYPlayerTests.release.xcconfig"; sourceTree = "<group>"; };
+		545A47AE226677D55DCAF1B4A98A1873 /* AYPlayerURLSessionDataTaskFactory.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = AYPlayerURLSessionDataTaskFactory.swift; path = AYPlayer/AYPlayerURLSessionDataTaskFactory.swift; sourceTree = "<group>"; };
 		54FAC5231D81D908ED3506779015E007 /* Pods-AYPlayerExample-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-AYPlayerExample-umbrella.h"; sourceTree = "<group>"; };
+		5C7BAD02D98730E24C53FE625F34E8BF /* FailedState.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = FailedState.swift; sourceTree = "<group>"; };
+		5FFF1886908536018A2041FAA91241EA /* AYPlayerAction.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = AYPlayerAction.swift; path = AYPlayer/AYPlayerAction.swift; sourceTree = "<group>"; };
 		64EC0D4D2BAB0987A0AD373B61BB7639 /* Pods-AYPlayerExample-AYPlayerTests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-AYPlayerExample-AYPlayerTests-dummy.m"; sourceTree = "<group>"; };
-		655CF2FA6995FC2FCB9E8A87769CADE1 /* AYPlayerPerformanceMeasurementsService.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = AYPlayerPerformanceMeasurementsService.swift; sourceTree = "<group>"; };
+		662096A02878CF9C1A8E359E19412CC4 /* AYRouteAudioService.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = AYRouteAudioService.swift; sourceTree = "<group>"; };
 		66522EF2B2932CC40D14E3802A671247 /* Pods-AYPlayerExample.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-AYPlayerExample.release.xcconfig"; sourceTree = "<group>"; };
 		67FD5612F88A0129F24DB38820AA1BAE /* Pods-AYPlayerExample.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-AYPlayerExample.modulemap"; sourceTree = "<group>"; };
-		698B76A79B5A7C43414AE5650171607D /* AYInterruptionAudioService.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = AYInterruptionAudioService.swift; sourceTree = "<group>"; };
-		6C38DBAF4A7F7550F1F3DB1F20041035 /* AYPlayer-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "AYPlayer-Info.plist"; sourceTree = "<group>"; };
-		7539230544573E52882EE1FBBD51F3FD /* AYPlayerManagerState.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = AYPlayerManagerState.swift; path = AYPlayer/Sources/AYPlayerManagerState.swift; sourceTree = "<group>"; };
-		78A1160207F76868369DA0B26E452D36 /* AYPlayer-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "AYPlayer-umbrella.h"; sourceTree = "<group>"; };
+		689BD766BEB710156747E9948B20C41A /* AYPlayer.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = AYPlayer.modulemap; sourceTree = "<group>"; };
+		770494DD8FB4EE09430D8A24986DD021 /* BufferingState.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = BufferingState.swift; sourceTree = "<group>"; };
 		7A6C042143680F3CCECC09664CAB51CE /* Pods-AYPlayerExample-AYPlayerTests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-AYPlayerExample-AYPlayerTests.modulemap"; sourceTree = "<group>"; };
-		8624A5CA672666DD2CDB84708E4BAD8E /* AYPlayerState.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = AYPlayerState.swift; path = AYPlayer/Sources/AYPlayerState.swift; sourceTree = "<group>"; };
-		8953ED28BD0B3ADE4BDF4D05728460BA /* AYPlayer-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "AYPlayer-prefix.pch"; sourceTree = "<group>"; };
-		8B10482C7E1A2DB91C82BFC59BB97D6F /* AYPlayerAction.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = AYPlayerAction.swift; path = AYPlayer/Sources/AYPlayerAction.swift; sourceTree = "<group>"; };
+		7BACEC45035943CAA2BF4B1F11D9CB14 /* AYPlayerState.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = AYPlayerState.swift; path = AYPlayer/AYPlayerState.swift; sourceTree = "<group>"; };
+		826E7B4BF44310A8AFCF313FEFE47F15 /* AYPlayerConfiguration.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = AYPlayerConfiguration.swift; path = AYPlayer/AYPlayerConfiguration.swift; sourceTree = "<group>"; };
+		85B3146846F22CF435B94E2354765C79 /* AYPlayerSeekService.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = AYPlayerSeekService.swift; sourceTree = "<group>"; };
+		87E2525DABE6CD8C1FF44DA1DD23D593 /* AYPlayerMedia.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = AYPlayerMedia.swift; path = AYPlayer/AYPlayerMedia.swift; sourceTree = "<group>"; };
 		8B2C7CBCBCCF7B8E108AC944F2E13F95 /* Pods-AYPlayerExample-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-AYPlayerExample-acknowledgements.markdown"; sourceTree = "<group>"; };
 		8C29C13DE7F17E3CBE33B6E2712708E6 /* Pods-AYPlayerExample-AYPlayerTests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-AYPlayerExample-AYPlayerTests-umbrella.h"; sourceTree = "<group>"; };
-		8CABB9927B5DDFF617B2F5AB5376CB27 /* BufferingState.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = BufferingState.swift; sourceTree = "<group>"; };
-		941ED3E7E1D388B5AAC978124036B880 /* AYPlayer.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = AYPlayer.modulemap; sourceTree = "<group>"; };
-		9A33EE5D901B16F97E93D61AAC5CAA8F /* PausedState.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = PausedState.swift; sourceTree = "<group>"; };
+		8D99A4D61390576BE0D392ECB1EE2CD0 /* AYPlayerBufferObservingService.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = AYPlayerBufferObservingService.swift; sourceTree = "<group>"; };
+		98F8F97B0DE95446A06B778DB7713015 /* AYPlayerUnavailableActionReason.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = AYPlayerUnavailableActionReason.swift; path = AYPlayer/AYPlayerUnavailableActionReason.swift; sourceTree = "<group>"; };
 		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		9E60E3F82381ADB5B272A616513660B5 /* AYTimerFactory.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = AYTimerFactory.swift; sourceTree = "<group>"; };
-		A02A27A55D5E4B4C9F859F960431124F /* StoppedState.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = StoppedState.swift; sourceTree = "<group>"; };
-		A11F53B8C322C98D2D4DFDBA28177B82 /* AYPlayerError.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = AYPlayerError.swift; path = AYPlayer/Sources/AYPlayerError.swift; sourceTree = "<group>"; };
-		A486EC15DF9D1058D5BDDBC07CFF26D2 /* AYPlayerLoggerDomain.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = AYPlayerLoggerDomain.swift; path = AYPlayer/Sources/AYPlayerLoggerDomain.swift; sourceTree = "<group>"; };
-		A9FF9BD8FDC7093887A7D995C8691CA9 /* AYPlayerManager.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = AYPlayerManager.swift; path = AYPlayer/Sources/AYPlayerManager.swift; sourceTree = "<group>"; };
+		9EE3AC25701C755A6397E0F154B0F282 /* AYPlayerTimeControlStatus.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = AYPlayerTimeControlStatus.swift; sourceTree = "<group>"; };
+		A23F6BA1A86FD1E0C6722AFA2EF04408 /* AYPlayer-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "AYPlayer-umbrella.h"; sourceTree = "<group>"; };
+		A7465FA1A3E9C64A5520F43187AF5DA2 /* AYInterruptionAudioService.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = AYInterruptionAudioService.swift; sourceTree = "<group>"; };
 		B0415D6E7F26CC1BA63149C8E029A2E5 /* Pods-AYPlayerExample-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-AYPlayerExample-dummy.m"; sourceTree = "<group>"; };
-		BBE3B8D7DC66D34E47DF2796C4BA4972 /* AYPlayerUnavailableActionReason.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = AYPlayerUnavailableActionReason.swift; path = AYPlayer/Sources/AYPlayerUnavailableActionReason.swift; sourceTree = "<group>"; };
+		B51DAD70458EA9A44705E2BFD7A565A8 /* AYPlayer-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "AYPlayer-prefix.pch"; sourceTree = "<group>"; };
+		B8A5AF474A9A26DB762D88D763ED7025 /* AYPlayer-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "AYPlayer-Info.plist"; sourceTree = "<group>"; };
+		C0A88423A4A4A380E018088439F5D432 /* AYPlaybackObservingService.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = AYPlaybackObservingService.swift; sourceTree = "<group>"; };
 		C4DA3D52CB433566038DB7D04CBACE71 /* Pods_AYPlayerExample.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_AYPlayerExample.framework; path = "Pods-AYPlayerExample.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C4FDF22A28174F74A30744D0265C91BC /* InitializationState.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = InitializationState.swift; sourceTree = "<group>"; };
 		C76FB3BA002467C6281D703B1B4E6432 /* Pods-AYPlayerExample.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-AYPlayerExample.debug.xcconfig"; sourceTree = "<group>"; };
+		C96CA8D20150726EE6B47808F095E2CD /* LoadingState.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = LoadingState.swift; sourceTree = "<group>"; };
 		CA4C34689DF543DF96FA6D923F344025 /* Pods-AYPlayerExample-AYPlayerTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-AYPlayerExample-AYPlayerTests.debug.xcconfig"; sourceTree = "<group>"; };
-		D6E789643F57D36F3D3A7F2B3D971866 /* AYPlayer.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = AYPlayer.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		DB78170FBD4D78A50B696B34BF4BC7C4 /* AYPlayer-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "AYPlayer-dummy.m"; sourceTree = "<group>"; };
-		DD1B51699078CD78E96A15CAACF0B13F /* AYPlayerBufferObservingService.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = AYPlayerBufferObservingService.swift; sourceTree = "<group>"; };
-		DE2D47BBE200B25DD87B4F782F04E7D9 /* AYPlayerSeekService.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = AYPlayerSeekService.swift; sourceTree = "<group>"; };
-		E07B0E7D8EDD7E883339D7E8FA65819E /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/AVFoundation.framework; sourceTree = DEVELOPER_DIR; };
-		E0CF8F33512584B79BB56CB3D95964AB /* AYRouteAudioService.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = AYRouteAudioService.swift; sourceTree = "<group>"; };
-		E3F75324AA02C033B43163B18FF1D394 /* AYPlayerConfiguration.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = AYPlayerConfiguration.swift; path = AYPlayer/Sources/AYPlayerConfiguration.swift; sourceTree = "<group>"; };
-		E80C92FE6416D144F4F8E40525C40FCC /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
-		F5267189870270DAA22283945FB0787C /* AYPlaybackObservingService.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = AYPlaybackObservingService.swift; sourceTree = "<group>"; };
+		E486036FD5A8CF590E0D33A46D26D9ED /* AYPlayerManager.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = AYPlayerManager.swift; path = AYPlayer/AYPlayerManager.swift; sourceTree = "<group>"; };
+		E4E92CA73AA988B35031029DA48A81D2 /* AYPlayer.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = AYPlayer.release.xcconfig; sourceTree = "<group>"; };
+		E54ADE123696155EF3F308359B0DDED8 /* AYPlayerPerformanceMeasurementsService.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = AYPlayerPerformanceMeasurementsService.swift; sourceTree = "<group>"; };
+		E7D0B93447120DC733957D39319B5A99 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
 		F8F9822B298125D8F4C2E1A64756E7A2 /* Pods-AYPlayerExample-AYPlayerTests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-AYPlayerExample-AYPlayerTests-Info.plist"; sourceTree = "<group>"; };
-		FB647EA61EEB0330B842258B26D6E0FF /* AYPlayerReachabilityService.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = AYPlayerReachabilityService.swift; sourceTree = "<group>"; };
-		FF401091079F5993788FDF856320D114 /* AYRateObservingService.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = AYRateObservingService.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -141,12 +139,11 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		83200FDF4E0C6BCF2A9C15DEF64DA81E /* Frameworks */ = {
+		4C5A1062DB199E6944D4ADB51810E9D7 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				28431F51E9A1219B34201F89431C4A32 /* AVFoundation.framework in Frameworks */,
-				6D9A2E2F7944289C8B491FC6906AB1D9 /* Foundation.framework in Frameworks */,
+				414ABB8E277A26DCF80D731CB4F19070 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -161,14 +158,6 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		1628BF05B4CAFDCC3549A101F5A10A17 /* Frameworks */ = {
-			isa = PBXGroup;
-			children = (
-				A92C127359C7325D7ED43FE30124D9DB /* iOS */,
-			);
-			name = Frameworks;
-			sourceTree = "<group>";
-		};
 		274EECD93B97C6428740E5C8EF9FCAEC /* Products */ = {
 			isa = PBXGroup;
 			children = (
@@ -179,52 +168,23 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
-		3D99C4CF76E4397D44F3138096F2827A /* Support Files */ = {
+		7763771495819F956214314F1C97C93D /* Service */ = {
 			isa = PBXGroup;
 			children = (
-				941ED3E7E1D388B5AAC978124036B880 /* AYPlayer.modulemap */,
-				DB78170FBD4D78A50B696B34BF4BC7C4 /* AYPlayer-dummy.m */,
-				6C38DBAF4A7F7550F1F3DB1F20041035 /* AYPlayer-Info.plist */,
-				8953ED28BD0B3ADE4BDF4D05728460BA /* AYPlayer-prefix.pch */,
-				78A1160207F76868369DA0B26E452D36 /* AYPlayer-umbrella.h */,
-				36C55302AF1E07A7EC87B76BA9896829 /* AYPlayer.debug.xcconfig */,
-				348FE5E7677C3D392F370A653165FAE5 /* AYPlayer.release.xcconfig */,
+				A7465FA1A3E9C64A5520F43187AF5DA2 /* AYInterruptionAudioService.swift */,
+				C0A88423A4A4A380E018088439F5D432 /* AYPlaybackObservingService.swift */,
+				8D99A4D61390576BE0D392ECB1EE2CD0 /* AYPlayerBufferObservingService.swift */,
+				E54ADE123696155EF3F308359B0DDED8 /* AYPlayerPerformanceMeasurementsService.swift */,
+				17751A8B92A5466F8FE39BF0CC804F14 /* AYPlayerReachabilityService.swift */,
+				85B3146846F22CF435B94E2354765C79 /* AYPlayerSeekService.swift */,
+				4DF6AD8956E729804494453E2B273E04 /* AYPlayerStatusObservingService.swift */,
+				9EE3AC25701C755A6397E0F154B0F282 /* AYPlayerTimeControlStatus.swift */,
+				0A1AFA9598B1FB072FF1E98FEE3B052E /* AYRateObservingService.swift */,
+				662096A02878CF9C1A8E359E19412CC4 /* AYRouteAudioService.swift */,
+				2AC02AD70F359F142F6A7439329EC6C0 /* AYTimerFactory.swift */,
 			);
-			name = "Support Files";
-			path = "Pods/Target Support Files/AYPlayer";
-			sourceTree = "<group>";
-		};
-		4D5F77DE65AA002EBB85B67680D79CA7 /* Development Pods */ = {
-			isa = PBXGroup;
-			children = (
-				B36A2BC7AF4ECB8E468D5D321310DB79 /* AYPlayer */,
-			);
-			name = "Development Pods";
-			sourceTree = "<group>";
-		};
-		744F648CE6077AC482E0606FF4F75D1C /* State */ = {
-			isa = PBXGroup;
-			children = (
-				8CABB9927B5DDFF617B2F5AB5376CB27 /* BufferingState.swift */,
-				4569B7C8DF329AD05139A549E08EE050 /* FailedState.swift */,
-				3F6A3621F429647F7741BA6E85F66B99 /* InitializationState.swift */,
-				37730C860236187A2209BBED27C500BD /* LoadingState.swift */,
-				9A33EE5D901B16F97E93D61AAC5CAA8F /* PausedState.swift */,
-				4E19ACC01677BCFB41D74076934F9D27 /* PlayingState.swift */,
-				A02A27A55D5E4B4C9F859F960431124F /* StoppedState.swift */,
-				394BAA35A8A3302FF73391784EA6D6C8 /* WaitingForNetworkState.swift */,
-			);
-			name = State;
-			path = AYPlayer/Sources/State;
-			sourceTree = "<group>";
-		};
-		7ADB5773B709FAFA3D237812C4B66608 /* Pod */ = {
-			isa = PBXGroup;
-			children = (
-				D6E789643F57D36F3D3A7F2B3D971866 /* AYPlayer.podspec */,
-				3CA4E84D3D6305203317E4914F50B419 /* README.md */,
-			);
-			name = Pod;
+			name = Service;
+			path = AYPlayer/Service;
 			sourceTree = "<group>";
 		};
 		81D046045107FE58FF9A2927DC07C184 /* Pods-AYPlayerExample-AYPlayerTests */ = {
@@ -244,66 +204,110 @@
 			path = "Target Support Files/Pods-AYPlayerExample-AYPlayerTests";
 			sourceTree = "<group>";
 		};
-		A92C127359C7325D7ED43FE30124D9DB /* iOS */ = {
+		8A8C16A7BE66EC337CFB83104FEC7F39 /* AYPlayer */ = {
 			isa = PBXGroup;
 			children = (
-				E07B0E7D8EDD7E883339D7E8FA65819E /* AVFoundation.framework */,
-				E80C92FE6416D144F4F8E40525C40FCC /* Foundation.framework */,
+				CCE5B9DB16260D6EEE1B9D6E0DA92ADA /* Core */,
+				C3A2CB2DB117C5771DEFB5BA593A58E6 /* Pod */,
+				B9A4D77DB9C1BE5F88C0BA8B9110A1DF /* Support Files */,
+			);
+			name = AYPlayer;
+			path = ..;
+			sourceTree = "<group>";
+		};
+		A7D3D124D0282530C6ECCA2087D7CAC5 /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				8A8C16A7BE66EC337CFB83104FEC7F39 /* AYPlayer */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		B9A4D77DB9C1BE5F88C0BA8B9110A1DF /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				689BD766BEB710156747E9948B20C41A /* AYPlayer.modulemap */,
+				17B46E4AC76A975F40D2E55D0545A605 /* AYPlayer-dummy.m */,
+				B8A5AF474A9A26DB762D88D763ED7025 /* AYPlayer-Info.plist */,
+				B51DAD70458EA9A44705E2BFD7A565A8 /* AYPlayer-prefix.pch */,
+				A23F6BA1A86FD1E0C6722AFA2EF04408 /* AYPlayer-umbrella.h */,
+				1E13B7927EC597CE2F6A293D6BF599EE /* AYPlayer.debug.xcconfig */,
+				E4E92CA73AA988B35031029DA48A81D2 /* AYPlayer.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "Pods/Target Support Files/AYPlayer";
+			sourceTree = "<group>";
+		};
+		C0834CEBB1379A84116EF29F93051C60 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */,
 			);
 			name = iOS;
 			sourceTree = "<group>";
 		};
-		B36A2BC7AF4ECB8E468D5D321310DB79 /* AYPlayer */ = {
+		C3A2CB2DB117C5771DEFB5BA593A58E6 /* Pod */ = {
 			isa = PBXGroup;
 			children = (
-				8B10482C7E1A2DB91C82BFC59BB97D6F /* AYPlayerAction.swift */,
-				E3F75324AA02C033B43163B18FF1D394 /* AYPlayerConfiguration.swift */,
-				A11F53B8C322C98D2D4DFDBA28177B82 /* AYPlayerError.swift */,
-				05CB565753A4EFF90718B0F9532C13A5 /* AYPlayerLogger.swift */,
-				A486EC15DF9D1058D5BDDBC07CFF26D2 /* AYPlayerLoggerDomain.swift */,
-				A9FF9BD8FDC7093887A7D995C8691CA9 /* AYPlayerManager.swift */,
-				7539230544573E52882EE1FBBD51F3FD /* AYPlayerManagerState.swift */,
-				1B4353AA6B60762C8F1DD710CD6AFC83 /* AYPlayerMedia.swift */,
-				8624A5CA672666DD2CDB84708E4BAD8E /* AYPlayerState.swift */,
-				BBE3B8D7DC66D34E47DF2796C4BA4972 /* AYPlayerUnavailableActionReason.swift */,
-				2709049D2386EF542DF422F37E201289 /* AYPlayerURLSessionDataTaskFactory.swift */,
-				7ADB5773B709FAFA3D237812C4B66608 /* Pod */,
-				D6FF5ECD96192DB8F4E60E6BE10884F2 /* Service */,
-				744F648CE6077AC482E0606FF4F75D1C /* State */,
-				3D99C4CF76E4397D44F3138096F2827A /* Support Files */,
+				2EAFCD64C2FBECDC2615EEFC7C336384 /* AYPlayer.podspec */,
+				E7D0B93447120DC733957D39319B5A99 /* README.md */,
 			);
-			name = AYPlayer;
-			path = ..;
+			name = Pod;
+			sourceTree = "<group>";
+		};
+		CCE5B9DB16260D6EEE1B9D6E0DA92ADA /* Core */ = {
+			isa = PBXGroup;
+			children = (
+				5FFF1886908536018A2041FAA91241EA /* AYPlayerAction.swift */,
+				826E7B4BF44310A8AFCF313FEFE47F15 /* AYPlayerConfiguration.swift */,
+				1177E1D6205F42C7D31FF64E905E1338 /* AYPlayerError.swift */,
+				3AD04E66E2391F5752BD88F11E495CBC /* AYPlayerLogger.swift */,
+				061C6B037B3B53472465C6C442F254A1 /* AYPlayerLoggerDomain.swift */,
+				E486036FD5A8CF590E0D33A46D26D9ED /* AYPlayerManager.swift */,
+				16175D1906D615FD723ACEE2ED6C5B3A /* AYPlayerManagerState.swift */,
+				87E2525DABE6CD8C1FF44DA1DD23D593 /* AYPlayerMedia.swift */,
+				7BACEC45035943CAA2BF4B1F11D9CB14 /* AYPlayerState.swift */,
+				98F8F97B0DE95446A06B778DB7713015 /* AYPlayerUnavailableActionReason.swift */,
+				545A47AE226677D55DCAF1B4A98A1873 /* AYPlayerURLSessionDataTaskFactory.swift */,
+				7763771495819F956214314F1C97C93D /* Service */,
+				D7EF704DE3CBD5F51FB42EFD3FBE5C50 /* State */,
+			);
+			name = Core;
 			sourceTree = "<group>";
 		};
 		CF1408CF629C7361332E53B88F7BD30C = {
 			isa = PBXGroup;
 			children = (
 				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
-				4D5F77DE65AA002EBB85B67680D79CA7 /* Development Pods */,
-				1628BF05B4CAFDCC3549A101F5A10A17 /* Frameworks */,
+				A7D3D124D0282530C6ECCA2087D7CAC5 /* Development Pods */,
+				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
 				274EECD93B97C6428740E5C8EF9FCAEC /* Products */,
 				F5681D8163B8338B7055774CC2EC8DE6 /* Targets Support Files */,
 			);
 			sourceTree = "<group>";
 		};
-		D6FF5ECD96192DB8F4E60E6BE10884F2 /* Service */ = {
+		D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				698B76A79B5A7C43414AE5650171607D /* AYInterruptionAudioService.swift */,
-				F5267189870270DAA22283945FB0787C /* AYPlaybackObservingService.swift */,
-				DD1B51699078CD78E96A15CAACF0B13F /* AYPlayerBufferObservingService.swift */,
-				655CF2FA6995FC2FCB9E8A87769CADE1 /* AYPlayerPerformanceMeasurementsService.swift */,
-				FB647EA61EEB0330B842258B26D6E0FF /* AYPlayerReachabilityService.swift */,
-				DE2D47BBE200B25DD87B4F782F04E7D9 /* AYPlayerSeekService.swift */,
-				3B9D5AD7137DA9A71CDC93D6B82FEAFB /* AYPlayerStatusObservingService.swift */,
-				3604C7990B3208EC01DF7A7429DCF767 /* AYPlayerTimeControlStatus.swift */,
-				FF401091079F5993788FDF856320D114 /* AYRateObservingService.swift */,
-				E0CF8F33512584B79BB56CB3D95964AB /* AYRouteAudioService.swift */,
-				9E60E3F82381ADB5B272A616513660B5 /* AYTimerFactory.swift */,
+				C0834CEBB1379A84116EF29F93051C60 /* iOS */,
 			);
-			name = Service;
-			path = AYPlayer/Sources/Service;
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D7EF704DE3CBD5F51FB42EFD3FBE5C50 /* State */ = {
+			isa = PBXGroup;
+			children = (
+				770494DD8FB4EE09430D8A24986DD021 /* BufferingState.swift */,
+				5C7BAD02D98730E24C53FE625F34E8BF /* FailedState.swift */,
+				C4FDF22A28174F74A30744D0265C91BC /* InitializationState.swift */,
+				C96CA8D20150726EE6B47808F095E2CD /* LoadingState.swift */,
+				497AD81BC0206054B4D9FD693A653C15 /* PausedState.swift */,
+				1F2D1FC4B04D0946787A99E3254AFA5E /* PlayingState.swift */,
+				45F55FC5476D204430F39CC160753750 /* StoppedState.swift */,
+				04C4C0607E1767318E295AD20A127F4C /* WaitingForNetworkState.swift */,
+			);
+			name = State;
+			path = AYPlayer/State;
 			sourceTree = "<group>";
 		};
 		F36052470ABD8A195099278EEB63A5EA /* Pods-AYPlayerExample */ = {
@@ -343,11 +347,11 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		A1DC0111CC9C0A21F28CD3607169E651 /* Headers */ = {
+		991A6FC0E1E78EB26183BC2484E857C1 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				DCFB5BFD3DF0D4054D47E4DE4866C52C /* AYPlayer-umbrella.h in Headers */,
+				67480D9D391BE4600FED5A4D7AD4470D /* AYPlayer-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -364,12 +368,12 @@
 /* Begin PBXNativeTarget section */
 		14FD7D4660C438982068DBF758FF20C8 /* AYPlayer */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 3EBEC1ED0DF8FA09A433B3CC830EC710 /* Build configuration list for PBXNativeTarget "AYPlayer" */;
+			buildConfigurationList = 2AA0342757216CDE10891E1202EEFCF1 /* Build configuration list for PBXNativeTarget "AYPlayer" */;
 			buildPhases = (
-				A1DC0111CC9C0A21F28CD3607169E651 /* Headers */,
-				1B01D46198BCB06CAFBFC6274BED481A /* Sources */,
-				83200FDF4E0C6BCF2A9C15DEF64DA81E /* Frameworks */,
-				ED33030B322F79EA116FFAAAB6C5194A /* Resources */,
+				991A6FC0E1E78EB26183BC2484E857C1 /* Headers */,
+				527C1E8549B071778D9E471BF9184C6A /* Sources */,
+				4C5A1062DB199E6944D4ADB51810E9D7 /* Frameworks */,
+				C37A6E8C111A65A1EA20BE666DDEABA0 /* Resources */,
 			);
 			buildRules = (
 			);
@@ -462,7 +466,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		ED33030B322F79EA116FFAAAB6C5194A /* Resources */ = {
+		C37A6E8C111A65A1EA20BE666DDEABA0 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -472,41 +476,41 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		1B01D46198BCB06CAFBFC6274BED481A /* Sources */ = {
+		527C1E8549B071778D9E471BF9184C6A /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				19AE3DA9CD0CBFD2768E99E0CDB37301 /* AYInterruptionAudioService.swift in Sources */,
-				918F28DAD86CF8A1FAE7BA589CE6B7F3 /* AYPlaybackObservingService.swift in Sources */,
-				890FEC4C1D7435B54287CE041C307B8A /* AYPlayer-dummy.m in Sources */,
-				0259067844DDA59417AD67530D517773 /* AYPlayerAction.swift in Sources */,
-				A31FC71D274398AAF6097270E3025203 /* AYPlayerBufferObservingService.swift in Sources */,
-				F054961A21C93B387DF046D62373576D /* AYPlayerConfiguration.swift in Sources */,
-				3F2E1B846D0FAC749AC95CE9D7F5392F /* AYPlayerError.swift in Sources */,
-				9AE26EA1724018F5589569F399A340C5 /* AYPlayerLogger.swift in Sources */,
-				9D8F36A68F36FF1719AEDC869EF01DFE /* AYPlayerLoggerDomain.swift in Sources */,
-				AFF187CF60394C63006360D6DBC95130 /* AYPlayerManager.swift in Sources */,
-				1B0D5B36E50CF47640F117A7FD631D04 /* AYPlayerManagerState.swift in Sources */,
-				5A74816BDAB74F5749A9BF01CEF9D794 /* AYPlayerMedia.swift in Sources */,
-				3B6A22431072F47BF55A9F644439536B /* AYPlayerPerformanceMeasurementsService.swift in Sources */,
-				802DAACAE49AA32CA5659408088E8B47 /* AYPlayerReachabilityService.swift in Sources */,
-				DF86C4CDB17A2617A26E3DD0F394E96A /* AYPlayerSeekService.swift in Sources */,
-				AD7EE4CAE406780D52A3B787C116636B /* AYPlayerState.swift in Sources */,
-				19E8D3E09C4E2549037E7B7146FFD2B4 /* AYPlayerStatusObservingService.swift in Sources */,
-				81910B0DDB8552A8DC235A87A91E1DAC /* AYPlayerTimeControlStatus.swift in Sources */,
-				383D2E8BDA8197BD14D05A0EF50B372A /* AYPlayerUnavailableActionReason.swift in Sources */,
-				8595EF888EE3FBD3CE6DC35DA98EDF0E /* AYPlayerURLSessionDataTaskFactory.swift in Sources */,
-				D2345412371B09DF0306E83A7E9B636E /* AYRateObservingService.swift in Sources */,
-				736F38A20CB790D970B1A8E27EDA77E4 /* AYRouteAudioService.swift in Sources */,
-				045B736B2E9F9A7F03026F8864D1CC75 /* AYTimerFactory.swift in Sources */,
-				7A014A0CA1D65739E9C7C0CC7300E2AA /* BufferingState.swift in Sources */,
-				150DCFC4708453FCAF26CF4BA9C5835B /* FailedState.swift in Sources */,
-				B5971D321D3E3EF393126AAA4B505D8C /* InitializationState.swift in Sources */,
-				8C50E0573FF505AEAF3E90B375484142 /* LoadingState.swift in Sources */,
-				5A60733F34252B8777BD3CDAE472E961 /* PausedState.swift in Sources */,
-				F3F72702A929102A5E51F0B70E659420 /* PlayingState.swift in Sources */,
-				B922C8CC2B1EF2E3B1A3A2579778D691 /* StoppedState.swift in Sources */,
-				19BB799C525F88B8EB1AFDDB6E91B193 /* WaitingForNetworkState.swift in Sources */,
+				99795EE0908EEC0218A1749C713111F7 /* AYInterruptionAudioService.swift in Sources */,
+				3AA4C030A893CE31C506541475738D3E /* AYPlaybackObservingService.swift in Sources */,
+				50BA825F930520B4332B324A0B82F4AE /* AYPlayer-dummy.m in Sources */,
+				C7D2536915DC1063E60ADBCD506E2282 /* AYPlayerAction.swift in Sources */,
+				B91DC45419877841C75E64A4EFDEF96B /* AYPlayerBufferObservingService.swift in Sources */,
+				A3A5CB6AB71326FB2C4DB6333DCFB29A /* AYPlayerConfiguration.swift in Sources */,
+				DD708B336B90F1DCC6DDE30A7D10C6BE /* AYPlayerError.swift in Sources */,
+				68FD4600EC56D7AA7CE33990682EBAEB /* AYPlayerLogger.swift in Sources */,
+				95F68A11ABE50484C5C9673CECE1A927 /* AYPlayerLoggerDomain.swift in Sources */,
+				FA75A84D9924E61BDEB93FCE680763F4 /* AYPlayerManager.swift in Sources */,
+				6FC83028A3CA7D7323977E02366897D1 /* AYPlayerManagerState.swift in Sources */,
+				D476736C95E1FFA12D8D6F7E22DD6660 /* AYPlayerMedia.swift in Sources */,
+				0495C6C01D6465AE1155DAB4D9BABB6F /* AYPlayerPerformanceMeasurementsService.swift in Sources */,
+				45A1BC9940E27E016AB350FD266ABE9E /* AYPlayerReachabilityService.swift in Sources */,
+				15950EBA2E97E43F6DAB05137FD46CFC /* AYPlayerSeekService.swift in Sources */,
+				39FD6CF1D28BD59998F01E2D95027676 /* AYPlayerState.swift in Sources */,
+				E287D7F03CE06D128B9BAB08558034F5 /* AYPlayerStatusObservingService.swift in Sources */,
+				43D4696BD2FD785EE6C62310AEA2E012 /* AYPlayerTimeControlStatus.swift in Sources */,
+				2BF699F9B0AC41ECDB80796D97EA2DEC /* AYPlayerUnavailableActionReason.swift in Sources */,
+				52993BE2D364EF1C9F4095E49FB2373E /* AYPlayerURLSessionDataTaskFactory.swift in Sources */,
+				E4695906683D1AC6A489887BBB1A3480 /* AYRateObservingService.swift in Sources */,
+				CD913372AADF3605B847E76955C37D57 /* AYRouteAudioService.swift in Sources */,
+				2BAF4BE4E8166287DF90B00569C02DAA /* AYTimerFactory.swift in Sources */,
+				CDAC2CB3961090F8E8EB80A293595B47 /* BufferingState.swift in Sources */,
+				B6A850D5FBDB1678DC2D4A093487152E /* FailedState.swift in Sources */,
+				10395E20D880155478D1FEDAFB8A4513 /* InitializationState.swift in Sources */,
+				3F104898E36A0F1AD3EA902506C319AB /* LoadingState.swift in Sources */,
+				2047BE2FBD09506CDA64060E5CE6D3C0 /* PausedState.swift in Sources */,
+				CED852EAFBFCF4BC9CD78E65AC951BAA /* PlayingState.swift in Sources */,
+				FF554980FC54DD8732DBB94D2CA283F0 /* StoppedState.swift in Sources */,
+				CD9FDA3595D3B7BB1AD62E22C41F5973 /* WaitingForNetworkState.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -582,6 +586,79 @@
 			};
 			name = Debug;
 		};
+		4B271F7B18E06F795C135E86DE79D0AF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1E13B7927EC597CE2F6A293D6BF599EE /* AYPlayer.debug.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/AYPlayer/AYPlayer-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/AYPlayer/AYPlayer-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/AYPlayer/AYPlayer.modulemap";
+				PRODUCT_MODULE_NAME = AYPlayer;
+				PRODUCT_NAME = AYPlayer;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		54605ECA1B35E5030DFF43F613F61E07 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E4E92CA73AA988B35031029DA48A81D2 /* AYPlayer.release.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/AYPlayer/AYPlayer-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/AYPlayer/AYPlayer-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/AYPlayer/AYPlayer.modulemap";
+				PRODUCT_MODULE_NAME = AYPlayer;
+				PRODUCT_NAME = AYPlayer;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
 		57250082C1D4F348787A5F45F3CD3B85 /* Release */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 66522EF2B2932CC40D14E3802A671247 /* Pods-AYPlayerExample.release.xcconfig */;
@@ -653,79 +730,6 @@
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
-		7691D1FF7B1619F460F217B36A5078A5 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 348FE5E7677C3D392F370A653165FAE5 /* AYPlayer.release.xcconfig */;
-			buildSettings = {
-				CLANG_ENABLE_OBJC_WEAK = NO;
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/AYPlayer/AYPlayer-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/AYPlayer/AYPlayer-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				MODULEMAP_FILE = "Target Support Files/AYPlayer/AYPlayer.modulemap";
-				PRODUCT_MODULE_NAME = AYPlayer;
-				PRODUCT_NAME = AYPlayer;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
-		899DC9E3FD5F3CC25A2265BDFA1DEF4C /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 36C55302AF1E07A7EC87B76BA9896829 /* AYPlayer.debug.xcconfig */;
-			buildSettings = {
-				CLANG_ENABLE_OBJC_WEAK = NO;
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/AYPlayer/AYPlayer-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/AYPlayer/AYPlayer-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				MODULEMAP_FILE = "Target Support Files/AYPlayer/AYPlayer.modulemap";
-				PRODUCT_MODULE_NAME = AYPlayer;
-				PRODUCT_NAME = AYPlayer;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
@@ -907,11 +911,11 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		3EBEC1ED0DF8FA09A433B3CC830EC710 /* Build configuration list for PBXNativeTarget "AYPlayer" */ = {
+		2AA0342757216CDE10891E1202EEFCF1 /* Build configuration list for PBXNativeTarget "AYPlayer" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				899DC9E3FD5F3CC25A2265BDFA1DEF4C /* Debug */,
-				7691D1FF7B1619F460F217B36A5078A5 /* Release */,
+				4B271F7B18E06F795C135E86DE79D0AF /* Debug */,
+				54605ECA1B35E5030DFF43F613F61E07 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

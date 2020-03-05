@@ -8,7 +8,7 @@ AYPlayer is an ongoing project that aims to create a more usable audio video pla
   s.homepage         = 'https://github.com/andreyyoshua/AYPlayer'
   # s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { 'Andrey Yoshua' => 'andrey.yoshua@gmail.com' }
-  s.source           = { :git => 'https://github.com/andreyyoshua/AYPlayer.git', :tag => s.version.to_s }
+  s.source           = { :git => 'https://github.com/andreyyoshua/AYPlayer.git' }
   s.default_subspec  = 'Core'
 
   s.ios.deployment_target = '10.0'
